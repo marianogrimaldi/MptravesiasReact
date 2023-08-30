@@ -1,0 +1,73 @@
+.titileMpt{
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.pMpt{
+    font-family: 'Gobold', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 2rem;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 7rem;
+    
+}
+
+.trianguloNos{
+    width: 0;
+    height: 0;
+    border-right: 10rem solid red;
+    border-top: 10rem solid red;
+    border-left: 10rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    position: absolute;
+    top: 10rem;
+    opacity: .5;
+    z-index: -2;
+}
+
+.trianguloNos2{
+    width: 0;
+    height: 0;
+    border-right:5rem solid rgb(255, 242, 0);
+    border-top:5rem solid transparent;
+    border-left:5rem solid transparent;
+    border-bottom:5rem solid rgb(255, 242, 0);
+    position: absolute;
+    top:11rem;
+    opacity: .6;
+    left: 63rem;
+}
+
+.trianguloNos3{
+    width: 0;
+    height: 0;
+    border-right:5rem solid rgb(255, 0, 183);
+    border-top:5rem solid transparent;
+    border-left:5rem solid transparent;
+    border-bottom:5rem solid rgb(255, 0, 183);
+    position: absolute;
+    top:12rem;
+    opacity: .8;
+    left: 65rem;
+}
+
+.imgFondo{
+    max-width: 100%;
+    position: absolute;
+    top:8rem;
+    z-index: -2;
+    opacity: .5;
+    
+}
+
+.logoIcasaNos{
+    width: 7rem;
+    position: absolute;
+    top: 13rem;
+    left:65rem;
+    z-index: 1;
+    filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
+}

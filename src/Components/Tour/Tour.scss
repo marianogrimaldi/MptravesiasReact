@@ -1,0 +1,44 @@
+.titleTour{
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.pTour{
+    font-family: 'Gobold', sans-serif;
+    font-size: 1.5rem;
+    text-align: justify;
+    margin: 2rem;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 23rem;
+    
+}
+
+.imgTour{
+    max-width: 100%;
+    position: absolute;
+    top:8rem;
+    opacity: .5;
+    z-index: -1;
+}
+
+.logoVideo{
+    width: 6rem;
+    position: absolute;
+    margin-top: -8rem;
+    margin-left: 67rem;
+    filter: drop-shadow(3px 3px 3px rgb(255, 255, 255));
+    z-index: 1;
+    animation-name: animacionVideo; 
+    animation-duration:  2s ; 
+    animation-iteration-count: infinite;  
+}
+
+@keyframes animacionVideo {
+    0% {width:6rem ;}
+
+    50%{width: 6.5rem;}
+
+    100%{width: 6rem;}
+}

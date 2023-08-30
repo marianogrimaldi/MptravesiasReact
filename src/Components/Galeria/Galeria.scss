@@ -1,0 +1,85 @@
+.titleGaleria{
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 2rem;
+   
+}
+.imgGrid{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(2,1fr);
+    justify-items: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    z-index: 1;
+    margin-top: 5rem;
+    position: relative;
+
+    
+    img{
+        width: 5rem;
+        height: 15rem;
+        flex-grow: 1;
+        object-fit: cover;
+        margin-bottom: 1.5rem;
+        transition: .5s ease; 
+       
+        cursor:pointer;
+        
+        
+    }
+
+    img:hover{
+        scale: 1.2;
+      
+      
+    }
+    
+}
+
+.trianguloGal{
+    width: 0;
+    height: 0;
+    border-right: 10rem solid red;
+    border-top: 10rem solid red;
+    border-left: 10rem solid transparent;
+    border-bottom: 10rem solid transparent;
+    position: absolute;
+    top: 10rem;
+    z-index: -1;
+}
+
+.trianguloGal2{
+    width: 0;
+    height: 0;
+    border-right:5rem solid rgb(255, 242, 0);
+    border-top:5rem solid transparent;
+    border-left:5rem solid transparent;
+    border-bottom:5rem solid rgb(255, 242, 0);
+    position: absolute;
+    top:11rem;
+    opacity: .6;
+    left: 63rem;
+    z-index: 1;
+}
+
+.trianguloGal3{
+    width: 0;
+    height: 0;
+    border-right:5rem solid rgb(255, 0, 183);
+    border-top:5rem solid transparent;
+    border-left:5rem solid transparent;
+    border-bottom:5rem solid rgb(255, 0, 183);
+    position: absolute;
+    top:12rem;
+    opacity: .8;
+    left: 65rem;
+    z-index: 1;
+}
+
+.imgFondoGal{
+    max-width: 100%;
+    position: absolute;
+    opacity: .5;
+    margin-top: -15rem;
+}

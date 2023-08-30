@@ -1,0 +1,89 @@
+.titleTravesias{
+    font-size: 5rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+.pTra{
+    font-size: 1.5rem;
+    position: relative;
+    font-family: 'Gobold', sans-serif;
+    margin: 2rem;
+}
+
+.gridSalidas{
+    position: relative;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(4,1fr);
+    margin-bottom: 6.5rem;
+
+    .cardSalidas{
+        
+        text-align: center;
+        border: solid 1px white;
+        margin-bottom: 1rem;
+        background-image: linear-gradient(250deg, rgb(196, 3, 3), rgb(0, 0, 0));
+        color: white;
+        h2{
+            font-family: 'Gobold CUTS', sans-serif;
+            font-size: 3rem;
+        }
+        p{
+            font-family: 'Gobold', sans-serif;
+        }
+        img{
+            width: 20rem;
+            transition: .5s;
+        }
+        .imgFin{
+    position: absolute;
+    width: 20rem;
+    margin-left: -20rem;
+    
+    opacity: 0;
+    transition: .5s;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+        .imgFin:hover{
+           scale: 1;
+           opacity: 1;
+        }
+
+        .completa{
+             -webkit-filter: grayscale(100%);
+        }
+      
+   
+        
+    }
+
+}
+
+.imgDesierto{
+   max-width: 100%;
+    position: absolute;
+    margin-top: -12rem;
+    opacity: .5;
+    z-index: -1;
+}
+
+.cooming{
+    position: absolute;
+    width: 20rem;
+    margin-left: -20rem;
+    
+    opacity: 0;
+    transition: .5s;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+}
+
+.cooming:hover{
+    scale: 1;
+    opacity: 1;
+ }
