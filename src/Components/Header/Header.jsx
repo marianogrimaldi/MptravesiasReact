@@ -16,7 +16,7 @@ const Header = () =>{
                <NavLink to="/Travesias"><li>TRAVESIAS</li></NavLink> 
                <NavLink to="/Tour"><li>TOUR PRIVADO</li></NavLink> 
                <NavLink to="/Galeria"><li>GALERIA</li></NavLink> 
-                <li>CONTACTO</li>
+               <a href="#footer"><li>CONTACTO</li></a>
 
             </ul>
            

@@ -10,6 +10,7 @@ import logo from "../../assets/logoMarcelo.png"
 import logow from "../../assets/logoW.png"
 import logoi from "../../assets/logoI.png"
 import logof from "../../assets/logoF.webp"
+import { NavLink } from "react-router-dom"
 
 const Footer = () => {
     return (
@@ -28,12 +29,12 @@ const Footer = () => {
             <img src={fotoFooter} className="fotoFooter" alt="Utv" />
             <div className="flexFooter">
                 <div>
-                    <ul className="navBarFooter">
-                        <li>+ INICIO</li>
-                        <li>+ NOSOTROS</li>
-                        <li>+ TRAVESIAS</li>
-                        <li>+ TOUR PRIVADO</li>
-                        <li>+ GALERIA</li>
+                    <ul className="navBarFooter" id="footer">
+                    <NavLink to="/"><li>+ INICIO</li></NavLink> 
+                    <NavLink to="/Nosotros"><li>+ NOSOTROS</li></NavLink> 
+                    <NavLink to="/Travesias"><li>+ TRAVESIAS</li></NavLink> 
+                    <NavLink to="/Tour"><li>+ TOUR PRIVADO</li></NavLink> 
+                    <NavLink to="/Galeria"><li>+ GALERIA</li></NavLink> 
                     </ul>
                     <div className="trianguloFooter"></div>
                 </div>

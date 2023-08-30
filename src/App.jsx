@@ -7,6 +7,7 @@ import Travesias from './Components/Travesias/Travesias';
 import Tour from './Components/Tour/Tour';
 import Galeria from './Components/Galeria/Galeria';
 import Footer from './Components/Footer/Footer';
+import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
 import './App.css'
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
   return (
 
     <BrowserRouter>
+    <ScrollToTop/>
       <Header />
       <Routes>
       <Route path="/" element={<Home/>}/>
