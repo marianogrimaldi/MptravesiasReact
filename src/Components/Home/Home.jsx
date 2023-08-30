@@ -8,6 +8,7 @@ import canam from "../../assets/canam.jpg"
 import tierra from "../../assets/tierraSeca.jpg"
 import cuatri from "../../assets/cuatriSaludando.png"
 import icasa from "../../assets/logoMarcas/icasa.png"
+import { Link } from "react-router-dom"
 
 const Home = () => {
     return (
@@ -24,12 +25,12 @@ const Home = () => {
                 <img src={flecha} alt="Flecha gps" />
             </div>
             <img src={brujula} className="brujula" alt="Brujula" />
-            <h2 className="subTit1">+ TRAVESÍAS EN QUADs Y UTVs</h2>
+            <Link to="/Travesias"><h2 className="subTit1">+ TRAVESÍAS EN QUADs Y UTVs</h2></Link>
             <img src={canam} className="utvCanam" alt="Canam Utv" />
-            <h3>AVENTURAS POR TODO EL PAIS +</h3>
+            <Link to="/Galeria"><h3>AVENTURAS POR TODO EL PAIS +</h3></Link>
             <div className="triangulo3"></div>
             <img src={tierra}className="imgTierra" alt="tierra" />
-            <h4> + TOUR PRIVADO</h4>
+            <Link to="/Tour"><h4> + TOUR PRIVADO</h4></Link>
             <img src={cuatri} className="cuatriSaludo" alt="" />
         </div>
     )
