@@ -2,7 +2,12 @@ import "./Galeria.scss"
 import { RViewer, RViewerTrigger } from "react-viewerjs";
 import icasa from "../../assets/logoMarcas/icasa.png"
 import imgFondo from "../../assets/corrusel2.jpg"
+import { useTranslation } from "react-i18next"
+
+
 const Galeria = () =>{
+
+    const { t } = useTranslation()
 
     let imagenes = [
         "/galeria/fotoGalleria1-min.jpg",
@@ -26,7 +31,7 @@ const Galeria = () =>{
 
     return (
         <div className="animation">
-            <h1 className="titleGaleria">GALERIA +</h1>
+            <h1 className="titleGaleria">{t("Galeria.titulo")} +</h1>
             <div>
                 <div className="trianguloGal"></div>
                 <div className="trianguloGal2"></div>

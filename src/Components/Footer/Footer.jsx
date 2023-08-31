@@ -11,8 +11,12 @@ import logow from "../../assets/logoW.png"
 import logoi from "../../assets/logoI.png"
 import logof from "../../assets/logoF.webp"
 import { NavLink } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const Footer = () => {
+
+    const { t } = useTranslation()
+
     return (
         <div>
             <div className="logoCanam">
@@ -30,19 +34,19 @@ const Footer = () => {
             <div className="flexFooter">
                 <div>
                     <ul className="navBarFooter" id="footer">
-                    <NavLink to="/"><li>+ INICIO</li></NavLink> 
-                    <NavLink to="/Nosotros"><li>+ NOSOTROS</li></NavLink> 
-                    <NavLink to="/Travesias"><li>+ TRAVESIAS</li></NavLink> 
-                    <NavLink to="/Tour"><li>+ TOUR PRIVADO</li></NavLink> 
-                    <NavLink to="/Galeria"><li>+ GALERIA</li></NavLink> 
+                    <NavLink to="/"><li>+ {t("Footer.inicio")}</li></NavLink> 
+                    <NavLink to="/Nosotros"><li>+ {t("Footer.nosotros")}</li></NavLink> 
+                    <NavLink to="/Travesias"><li>+ {t("Footer.travesias")}</li></NavLink> 
+                    <NavLink to="/Tour"><li>+ {t("Footer.tour")}</li></NavLink> 
+                    <NavLink to="/Galeria"><li>+ {t("Footer.galeria")}</li></NavLink> 
                     </ul>
                     <div className="trianguloFooter"></div>
                 </div>
 
                 <div className="logosFooter">
                     <img src={logo} alt="Logo Mp travesias" />
-                    <h1>C O N T A C T O</h1>
-                    <p>CEL: +549-3548-407934</p>
+                    <h1>{t("Footer.contacto")}</h1>
+                    <p>{t("Footer.cel")}: +549-3548-407934</p>
                     <img src={logow} className="logoRedes" alt="" />
                     <img src={logoi} className="logoRedes" alt="" />
                     <img src={logof} className="logoRedes" alt="" />
@@ -51,9 +55,9 @@ const Footer = () => {
             <div className="trianguloFooter2"></div>
             <div className="trianguloFooter3"></div>
             <div className="wordsFooter">
-                <h5 className="accion">CCION</h5>
-                <h5 className="avent">VENTURA</h5>
-                <h5 className="adren">DRENALINA</h5>
+                <h5 className="accion">{t("Footer.accion")} </h5>
+                <h5 className="avent">{t("Footer.aventura")}</h5>
+                <h5 className="adren">{t("Footer.adrenalina")}</h5>
                 <h5 className="a">A</h5>
             </div>
             <div className="flexMariano">

@@ -1,0 +1,65 @@
+{
+    "translation": {
+        "Header":{
+            "idioma":"SELECIONE SUA LINGUA",
+            "inicio": "COMEÇAR",
+            "nosotros": "NÓS",
+            "travesias": "VIAGENS",
+            "tour": "TOUR PRIVADO",
+            "galeria": "GALERIA",
+            "contacto": "CONTATO"
+        },
+    
+        "Home":{
+            "activa": "ATIVE SEU MODO OFF ROAD",
+            "travesias": "CRUZAMENTO EM QUADs E UTVs",
+            "aventuras": "AVENTURAS PELO PAÍS",
+            "tour":"TOUR PRIVADO"
+        },
+        "Nosotros":{
+            "titulo":"M.P. VIAGENS",
+            "texto":"Meu nome é Marcelo Puchatt, tenho 53 anos, nasci na província do Chaco e moro em La Falda, nas Serras de Córdoba, Argentina, há duas décadas. Minha carreira como guia profissional começou em 2002, mas meu hobby começou bem antes. Quando eu tinha 5 anos, meu pai me deu minha primeira motocicleta. Venho de uma família de motociclistas. Meu avô, amante de aventura, foi uma grande referência para mim. Foi socorrista no Chaco e Mecânico Chefe. Meu pai incutiu em mim a paixão por motocicletas e carros e eles são minha fonte de trabalho hoje. Ao longo da minha carreira fiz de tudo um pouco: corri em caminhões, quadriciclos e motos. Fiz parte da equipe de Daniel Mazzucco no Dakar como Mecânico durante dois anos e em outras competições. Esta prática sustentada de navegação e a antiguidade para guiar nas montanhas, desertos, rios, salinas e por locais inóspitos, fazem com que hoje possa transmitir os meus conhecimentos a quem decidir viver as viagens comigo, podendo realizá-las com aconselhamento, experiência e total segurança. Amo profundamente o que faço, e essa paixão pelo trabalho duro é o que pretendo permear quem me conhece. Em cada uma das viagens, além de garantir um percurso de excelência, presto assistência mecânica permanente e autorizada, em caso de avaria de algum veículo ou necessidade de assistência técnica. ENTÃO TE CONVIDO A FAZER PARTE DESSE MARAVILHOSO MUNDO DO CRUZAMENTO QUAD E UTV, GARANTINDO UMA EXPERIÊNCIA ÚNICA E INESQUECÍVEL!!!"
+        },
+        "Travesias":{
+            "titulo":"CRUZAMENTO EM QUADs E UTVs",
+            "texto":"IMPORTANTE: A programação pode estar sujeita a alterações devido ao mau tempo. Para mais informações entre em contato através de nossas redes.",
+            "mes1": "JANEIRO",
+            "mes2": "FEVEREIRO",
+            "mes3": "MARCHAR",
+            "mes4": "ABRIL",
+            "mes5": "PODERIA",
+            "mes6": "JUNHO",
+            "mes7": "JULHO",
+            "mes8": "AGOSTO",
+            "mes9": "SETEMBRO",
+            "mes10": "OUTUBRO",
+            "mes11": "NOVEMBRO",
+            "mes12": "DEZEMBRO",
+            "desafio": "DESAFIO",
+            "volcan": "VULCÃO",
+            "salares": "SALARIAS E VULCÕES",
+            "arena": "AREIA E NEVE",
+            "despedida":"ATÉ A PRÓXIMA"
+        },
+        "Tour":{
+            "titulo":"TOUR PRIVADO",
+            "texto":"Nesta modalidade montamos uma viagem baseada nos seus gostos e nos nossos conhecimentos. Se você tem um grupo de amigos e quer viver uma experiência incrível, pergunte-nos datas e destinos, e redesenharemos uma viagem exclusiva para você. Tendo sempre em conta as condições meteorológicas, o nosso objetivo é que sinta plenamente a natureza num ambiente seguro e confiável."
+        },
+        "Galeria":{
+            "titulo":"GALERIA"
+        },
+        "Footer":{
+            "inicio": "COMEÇAR",
+            "nosotros": "NÓS",
+            "travesias": "VIAGENS",
+            "tour": "TOUR PRIVADO",
+            "galeria": "GALERIA",
+            "adrenalina":"DRENALINA",
+            "aventura":"VENTURA",
+            "accion":"ÇÃO",
+            "contacto":"CONTATO",
+            "cel":"CEL"
+        }      
+        } 
+      }
+      

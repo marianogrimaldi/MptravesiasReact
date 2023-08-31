@@ -2,8 +2,12 @@ import "./Header.scss"
 import logo from "../../assets/logoMarcelo.png"
 import Traductor from "../Traductor/Traductor"
 import { NavLink } from "react-router-dom"
+import { useTranslation } from "react-i18next"
 
 const Header = () =>{
+
+    const { t } = useTranslation()
+
     return (
         <div className="flexLogoNav">
             <img src={logo} className="logoMp" alt="Logo MPTravesias" />
@@ -11,12 +15,12 @@ const Header = () =>{
             <Traductor/>
             </div>
             <ul className="navBar">
-               <NavLink to="/"><li>INICIO</li></NavLink> 
-               <NavLink to="/Nosotros"><li>NOSOTROS</li></NavLink> 
-               <NavLink to="/Travesias"><li>TRAVESIAS</li></NavLink> 
-               <NavLink to="/Tour"><li>TOUR PRIVADO</li></NavLink> 
-               <NavLink to="/Galeria"><li>GALERIA</li></NavLink> 
-               <a href="#footer"><li>CONTACTO</li></a>
+               <NavLink to="/"><li>{t("Header.inicio")} </li></NavLink> 
+               <NavLink to="/Nosotros"><li>{t("Header.nosotros")}</li></NavLink> 
+               <NavLink to="/Travesias"><li>{t("Header.travesias")}</li></NavLink> 
+               <NavLink to="/Tour"><li>{t("Header.tour")}</li></NavLink> 
+               <NavLink to="/Galeria"><li>{t("Header.galeria")}</li></NavLink> 
+               <a href="#footer"><li>{t("Header.contacto")}</li></a>
 
             </ul>
            

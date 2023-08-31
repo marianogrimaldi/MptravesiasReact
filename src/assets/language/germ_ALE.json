@@ -1,0 +1,65 @@
+{
+    "translation": {
+        "Header":{
+            "idioma":"WÄHLE DEINE SPRACHE",
+            "inicio": "START",
+            "nosotros": "UNS",
+            "travesias": "REISEN",
+            "tour": "PRIVATE TOUR",
+            "galeria": "GALERIE",
+            "contacto": "KONTAKT"
+        },
+    
+        "Home":{
+            "activa": "AKTIVIEREN SIE IHREN OFF-ROAD-MODUS",
+            "travesias": "REISEN IN QUADs UND UTVs",
+            "aventuras": "ABENTEUER IM GANZEN LAND",
+            "tour":"PRIVATE TOUR"
+        },
+        "Nosotros":{
+            "titulo":"M.P. REISEN",
+            "texto":"Mein Name ist Marcelo Puchatt, ich bin 53 Jahre alt, ich wurde in der Provinz Chaco geboren und lebe seit zwei Jahrzehnten in La Falda, in den Sierras de Córdoba, Argentinien. Meine Karriere als professioneller Guide begann im Jahr 2002, mein Hobby begann jedoch viel früher. Als ich 5 Jahre alt war, schenkte mir mein Vater mein erstes Motorrad. Ich komme aus einer Familie von Motorradfahrern. Mein Großvater, ein Abenteuerliebhaber, war eine großartige Referenz für mich. Er war Retter in Chaco und Chefmechaniker. Mein Vater hat mir die Leidenschaft für Motorräder und Autos eingeflößt und sie sind heute meine Arbeitsquelle. Im Laufe meiner Karriere habe ich von allem ein bisschen gemacht: Ich bin Trucks, Quads und Motorräder gefahren. Ich war zwei Jahre lang als Mechaniker Teil des Teams von Daniel Mazzucco bei der Dakar und bei anderen Wettbewerben. Diese nachhaltige Navigationspraxis und das Dienstalter als Führer in den Bergen, Wüsten, Flüssen, Salinen und durch unwirtliche Orte bedeuten, dass ich heute mein Wissen an jeden weitergeben kann, der sich entscheidet, die Reisen mit mir zu erleben, und sie mit ihm durchführen kann Beratung, Fachwissen und absolute Sicherheit. Ich liebe zutiefst, was ich tue, und diese Leidenschaft für harte Arbeit möchte ich denen vermitteln, die mich kennen. Bei jeder Fahrt sorge ich nicht nur für eine erstklassige Route, sondern leiste auch permanente und autorisierte mechanische Hilfe für den Fall, dass ein Fahrzeug ausfällt oder technische Unterstützung benötigt. DANN lade ich Sie ein, Teil dieser wunderbaren Welt des Quad- und UTV-Überquerens zu sein, was Ihnen ein einzigartiges und unvergessliches Erlebnis garantiert!!!"
+        },
+        "Travesias":{
+            "titulo":"REISEN IN QUADs UND UTVs",
+            "texto":"WICHTIG: Der Zeitplan kann aufgrund von schlechtem Wetter geändert werden. Für weitere Informationen kontaktieren Sie uns bitte über unsere Netzwerke.",
+            "mes1": "JANUAR",
+            "mes2": "FEBRUAR",
+            "mes3": "MARSCH",
+            "mes4": "APRIL",
+            "mes5": "MAI",
+            "mes6": "JUNI",
+            "mes7": "JULI",
+            "mes8": "AUGUST",
+            "mes9": "SEPTEMBER",
+            "mes10": "OKTOBER",
+            "mes11": "NOVEMBER",
+            "mes12": "DEZEMBER",
+            "desafio": "HERAUSFORDERUNG",
+            "volcan": "VULKAN",
+            "salares": "SALZWÜTEN UND VULKANE",
+            "arena": "SAND UND SCHNEE",
+            "despedida":"LEBEWOHL"
+        },
+        "Tour":{
+            "titulo":"PRIVATE TOUR",
+            "texto":"In dieser Modalität stellen wir eine Reise basierend auf Ihrem Geschmack und unserem Wissen zusammen. Wenn Sie eine Gruppe von Freunden haben und ein unglaubliches Erlebnis erleben möchten, fragen Sie uns nach Daten und Reisezielen, und wir entwerfen eine exklusive Reise für Sie. Unter Berücksichtigung der Wetterbedingungen ist es unser Ziel, dass Sie die Natur in einer sicheren und zuverlässigen Umgebung voll und ganz spüren können."
+        },
+        "Galeria":{
+            "titulo":"GALERIE"
+        },
+        "Footer":{
+            "inicio": "START",
+            "nosotros": "UNS",
+            "travesias": "REISEN",
+            "tour": "PRIVATE TOUR",
+            "galeria": "GALERIE",
+            "adrenalina":"DRENALIN",
+            "aventura":"BENTEUER",
+            "accion":"KTION",
+            "contacto":"KONTAKT",
+            "cel":"HANDY"
+    }   
+        }     
+      }
+      
