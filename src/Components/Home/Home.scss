@@ -104,8 +104,6 @@ h1{
         100%{width: 4rem;}
 }
 
-
-
 .brujula{
     width: 20rem;
     position: absolute;
@@ -136,9 +134,8 @@ h1{
 
 @media screen and (max-width: 992px){
     .subTit1{
-        margin-top: 2.2rem;
+        margin-top: 2.7rem;
         font-size: 3rem;
-        padding: 2rem;
         text-align: center;
        z-index: -1;
     }
@@ -148,6 +145,12 @@ h1{
     max-width: 100%;
     position: absolute;
     top:44rem
+}
+
+@media screen and (max-width: 992px){
+    .utvCanam{
+        top: 39.5rem;
+    }
 }
 
 h3{
@@ -161,6 +164,13 @@ h3{
     text-shadow: 2px 2px 2px black;
 }
 
+@media screen and (max-width: 992px){
+    h3{
+        font-size: 3rem;
+        text-align: center;
+    }
+}
+
 .triangulo3 {
     width: 0;
     height: 0;
@@ -172,6 +182,18 @@ h3{
     top: 64rem;
     opacity: .3;
     left: 45rem;
+}
+
+@media screen and (max-width: 992px){
+    .triangulo3{
+        left: 35rem;
+        top:70rem;
+        z-index: 1;
+        border-right: 8rem solid red;
+        border-top: 8rem solid transparent;
+        border-left: 8rem solid transparent;
+        border-bottom: 8rem solid red;
+    }
 }
 
 .imgTierra{
@@ -191,6 +213,14 @@ h4{
     color: white;
 }
 
+@media screen and (max-width: 992px){
+    h4{
+        font-size: 3rem;
+        text-align: center;
+        
+    }
+}
+
 .cuatriSaludo{
     width: 20rem;
     position: absolute;
@@ -198,4 +228,12 @@ h4{
     margin-left: 10rem;
     border-radius: 1rem;
     filter: drop-shadow(1rem 1rem 1rem rgb(0, 0, 0));
+}
+
+@media screen and (max-width: 992px){
+    .cuatriSaludo{
+        margin-left: 1rem;
+        width: 15rem;
+        margin-top: -18rem;
+    }
 }

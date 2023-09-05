@@ -146,49 +146,59 @@
     display: flex;
     justify-content: center;
     text-align: left;
-   opacity: .3;
+    opacity: .3;
     padding-left: 5rem;
     font-style: italic;
     transition: .5s;
    
-    
    .accion{
     position: absolute;
    margin-top: -8rem;
    padding-right: 11rem;
   
-  
    }
   
-   
    .avent{
     position: absolute;
    margin-top: -14rem;
    padding-right: 5rem;
   
-  
    }
  
-  
    .adren{
     position: absolute;
    margin-top: -20rem;
-   
- 
    }
    
-  
    .a{
     font-size: 20rem;
     position: absolute;
     margin-top: -25rem;
     padding-right: 37rem;
-   
-    
    }
  
 } 
 
+@media screen and (max-width: 992px){
+    .wordsFooter{
+        .a{
+            font-size: 13rem;
+            padding-right: 25rem;
+        }
+        .accion{
+            font-size: 3rem;
+            margin-top: -13rem;
+        }
+        .adren{
+            font-size: 3rem;
+            margin-top: -21rem;
+        }
+        .avent{
+            font-size: 3rem;
+            margin-top: -17rem;
+        }
+    }
+}
 .wordsFooter:hover{
     opacity: 1;
 }
