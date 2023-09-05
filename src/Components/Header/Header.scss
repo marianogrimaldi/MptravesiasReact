@@ -21,6 +21,13 @@
     }
 }
 
+@media screen and (max-width: 992px){
+    .navBar{
+        position: absolute;
+        margin-left: 15rem;
+    }
+}
+
 .flexLogoNav{
     display: flex;
     justify-content: center;
@@ -32,6 +39,9 @@
     width: 100%;
     z-index: 3;
 }
+
+
+
 
 .logoMp{
     width: 15rem;
