@@ -36,7 +36,7 @@
     padding: 1rem;
     background-image: linear-gradient(to right, black,  #ff00ff, red, orange, yellow,  rgb(8, 255, 8),);
     position: fixed;
-    width: 100%;
+    max-width:  100%;
     z-index: 3;
 }
 
