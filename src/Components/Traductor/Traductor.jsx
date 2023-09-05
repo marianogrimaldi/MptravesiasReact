@@ -16,7 +16,7 @@ const Traductor = () => {
         i18n.changeLanguage(lan);
     }
     return (
-        <div>
+        
             <div className="flags">
                 <img onClick={()=>{cambiar("es")}} src={España} alt="Bandera de España" />
                 <img onClick={()=>{cambiar("en")}}src={Inglaterra} alt="Bandera de Inglaterra" />
@@ -24,10 +24,8 @@ const Traductor = () => {
                 <img onClick={()=>{cambiar("ger")}}src={Alemania} alt="Bandera de Alemania" />
                 <img onClick={()=>{cambiar("fr")}}src={Francia} alt="Bandera de Francia" />   
             </div>
-            <div>
-                <p>{t("Header.idioma")}</p>
-            </div>
-        </div>
+           
+    
     )
 }
 
