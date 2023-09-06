@@ -21,7 +21,7 @@ const Home = () => {
             <h1>{t("Home.activa")} </h1>
             <div className="logoHome">
                 <img src={logo}  alt="Logo Mptravesias" />
-                <img src={icasa} className="logoIcasa" alt="Logo Icasa" />
+                <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasa" alt="Logo Icasa" /></a>
             </div>
             <div className="triangulo"></div>
             <div className="triangulo2"></div>

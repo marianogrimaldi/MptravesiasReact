@@ -37,7 +37,7 @@ const Galeria = () =>{
                 <div className="trianguloGal2"></div>
                 <div className="trianguloGal3"></div>
             </div>
-            <img src={icasa} className="logoIcasaNos" alt="Logo Icasa" />
+            <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasaNos" alt="Logo Icasa" /></a>
             <img src={imgFondo} className="imgFondoGal" alt="" />
             <RViewer imageUrls={imagenes}>
                 <div className="imgGrid">

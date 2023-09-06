@@ -17,7 +17,7 @@ const Tour = () =>{
                 <div className="trianguloNos2"></div>
                 <div className="trianguloNos3"></div>
             </div>
-            <img src={icasa} className="logoIcasaNos" alt="Logo Icasa" />
+            <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasaNos" alt="Logo Icasa" /></a>
             <img src={tour} className="imgTour" alt="Grupo Pivado" />
             <a href="https://www.instagram.com/p/CtJmaRHMThU/" target="blank"><img src={video} className="logoVideo" alt="Logo Video" /></a>
         </div>

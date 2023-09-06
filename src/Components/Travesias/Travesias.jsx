@@ -30,7 +30,7 @@ const Travesias = () =>{
                 <div className="trianguloNos3"></div>
             </div>
             <img src={desierto} className="imgDesierto" alt="" />
-            <img src={icasa} className="logoIcasaNos" alt="Logo Icasa" />
+            <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasaNos" alt="Logo Icasa" /></a>
             <p className="pTra">{t("Travesias.texto")}</p>
             <div className="gridSalidas">
                 <div className="cardSalidas">

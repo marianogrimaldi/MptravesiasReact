@@ -18,7 +18,7 @@ const Nosotros = () =>{
                 <div className="trianguloNos3"></div>
             </div>
             <img src={fotoNos} className="imgFondo" alt="Foto Marcelo Puchatt" />
-            <img src={icasa} className="logoIcasaNos" alt="Logo Icasa" />
+            <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasaNos" alt="Logo Icasa" /></a>
             <a href="https://www.instagram.com/p/Cv90zW-NcrY/" target="blank"><img src={video} className="logoVideo" alt="Logo Video" /></a>
         </div>
     )

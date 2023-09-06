@@ -52,6 +52,7 @@
     justify-content: center;
     justify-content: space-evenly;
     align-items: center;
+    padding-bottom: 2rem;
     position: relative;
     background-image: linear-gradient(to right, black,  #ff00ff, red, orange, yellow,  rgb(8, 255, 8),);
     img{
@@ -279,5 +280,25 @@ li{
 
 .logoRedesFlex{
     display: flex;
-    gap:1rem
+    gap:1rem;
+    transition: 1s;
+}
+
+.logoRedes:hover{
+    scale: 1.2;
+}
+
+.icasaFooter{
+    width: 7rem;
+    position: absolute;
+    margin-top: -6rem;
+    margin-left: 3rem;
+}
+
+@media screen and (max-width: 992px){
+    .icasaFooter{
+        width: 6rem;
+        margin-top: -10rem;
+        margin-left: 4rem;
+}
 }
