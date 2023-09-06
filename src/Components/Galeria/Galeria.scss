@@ -5,6 +5,13 @@
     font-style: italic;
    
 }
+
+@media screen and (max-width: 992px){
+    .titleGaleria{
+        font-size: 3rem;
+    }
+}
+
 .imgGrid{
     display: grid;
     grid-template-columns: repeat(7,1fr);
@@ -24,18 +31,26 @@
         object-fit: cover;
         margin-bottom: 1.5rem;
         transition: .5s ease; 
-       
         cursor:pointer;
-        
         
     }
 
     img:hover{
         scale: 1.2;
-      
-      
     }
     
+}
+
+@media screen and (max-width: 992px){
+    .imgGrid{
+        margin-left: 5rem;
+    margin-right: 5rem;
+
+        img{
+            width: 5rem;
+            height: 10rem;
+        }
+    }
 }
 
 .trianguloGal{
@@ -49,6 +64,8 @@
     top: 10rem;
     z-index: -1;
 }
+
+
 
 .trianguloGal2{
     width: 0;
@@ -64,6 +81,12 @@
     z-index: 1;
 }
 
+@media screen and (max-width: 992px){
+    .trianguloGal2{
+       left: 35rem; 
+    }
+}
+
 .trianguloGal3{
     width: 0;
     height: 0;
@@ -76,6 +99,12 @@
     opacity: .8;
     left: 65rem;
     z-index: 1;
+}
+
+@media screen and (max-width: 992px){
+    .trianguloGal3{
+       left: 37rem; 
+    }
 }
 
 .imgFondoGal{

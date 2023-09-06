@@ -5,6 +5,12 @@
     font-style: italic;
 }
 
+@media screen and (max-width: 992px){
+    .titleTour{
+        font-size: 3rem;
+    }
+}
+
 .pTour{
     font-family: 'Gobold', sans-serif;
     font-size: 1.5rem;
@@ -14,6 +20,12 @@
     z-index: 1;
     padding-bottom: 23rem;
     
+}
+
+@media screen and (max-width: 992px){
+    .pTour{
+        padding-bottom: 5rem;
+    }
 }
 
 .imgTour{
@@ -42,4 +54,12 @@
     50%{width: 6.5rem;}
 
     100%{width: 6rem;}
+}
+
+@media screen and (max-width: 992px){
+    .logoVideo{
+        margin-top: -7rem;
+        margin-left: 35rem;
+       
+    }
 }

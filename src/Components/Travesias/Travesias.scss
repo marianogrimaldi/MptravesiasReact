@@ -6,6 +6,12 @@
     z-index: 2;
 }
 
+@media screen and (max-width: 992px){
+    .titleTravesias{
+        font-size: 3rem;
+    }
+}
+
 .pTra{
     font-size: 1.5rem;
     position: relative;
@@ -40,16 +46,15 @@
             transition: .5s;
         }
         .imgFin{
-    position: absolute;
-    width: 20rem;
-    margin-left: -20rem;
-    
-    opacity: 0;
-    transition: .5s;
-    padding-top: 3rem;
-    padding-bottom: 5rem;
-    filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
-}
+            position: absolute;
+            width: 20rem;
+            margin-left: -20rem;
+            opacity: 0;
+            transition: .5s;
+            padding-top: 3rem;
+            padding-bottom: 5rem;
+            filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+        }
         .imgFin:hover{
            scale: 1;
            opacity: 1;
@@ -58,26 +63,35 @@
         .completa{
              -webkit-filter: grayscale(100%);
         }
-      
-   
-        
     }
+}
 
+@media screen and (max-width: 992px){
+    .gridSalidas{
+        grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(6,1fr);
+    }
 }
 
 .imgDesierto{
-   max-width: 100%;
+    max-width: 100%;
     position: absolute;
     margin-top: -12rem;
     opacity: .5;
     z-index: -1;
+    
+}
+
+@media screen and (max-width: 992px){
+    .imgDesierto{
+        height: 200rem;
+    }
 }
 
 .cooming{
     position: absolute;
     width: 20rem;
     margin-left: -20rem;
-    
     opacity: 0;
     transition: .5s;
     padding-top: 3rem;
