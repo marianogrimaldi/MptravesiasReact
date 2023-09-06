@@ -10,6 +10,12 @@
     text-shadow: 1px 1px 1px black;
 }
 
+@media screen and (max-width: 992px){
+    .navBarFooter{
+        display: none;
+    }
+}
+
 .logoCanam{
     display: flex;
     justify-content: center;
@@ -30,6 +36,17 @@
     }
 }
 
+@media screen and (max-width: 992px){
+    .logoCanam{
+        img{
+             width: 12rem;
+        }
+        p{
+            font-size: 3rem;
+        }
+    }
+}
+
 .sponsorsFlex{
     display: flex;
     justify-content: center;
@@ -40,6 +57,14 @@
     img{
         width: 10rem;
         filter: drop-shadow(1px 1px 1px rgb(255, 255, 255));
+    }
+}
+
+@media screen and (max-width: 992px){
+    .sponsorsFlex{
+        img{
+            width: 6rem;
+        }
     }
 }
 
@@ -77,6 +102,11 @@
     left: 6rem;
 }
 
+@media screen and (max-width: 992px){
+    .trianguloFooter3{
+        margin-top: -10rem;
+    }
+}
 .flexFooter{
     display: flex;
     justify-content: center;
@@ -139,6 +169,17 @@
     left: 50rem;
 }
 
+@media screen and (max-width: 992px){
+    .trianguloFooter2{
+        left: 33rem;
+        border-right: 8rem solid  rgb(47, 255, 5);
+        border-top: 8rem solid transparent;
+        border-left: 8rem solid transparent;
+        border-bottom: 8rem solid  rgb(47, 255, 5);
+        margin-top: -16rem;
+    }
+}
+
 .wordsFooter{
     margin-top: 1rem;
     font-size: 7rem;
@@ -182,20 +223,23 @@
 @media screen and (max-width: 992px){
     .wordsFooter{
         .a{
+            margin-top: -19rem;
             font-size: 13rem;
             padding-right: 25rem;
         }
         .accion{
             font-size: 3rem;
-            margin-top: -13rem;
+            margin-top: -7rem;
         }
         .adren{
             font-size: 3rem;
-            margin-top: -21rem;
+            margin-top: -15rem;
+            padding-right: 4rem;
         }
         .avent{
             font-size: 3rem;
-            margin-top: -17rem;
+            margin-top: -11rem;
+            padding-right: 7rem;
         }
     }
 }
@@ -208,10 +252,10 @@
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    margin-top: 2.5rem;
+    margin-top: 3rem;
     font-family: 'Gobold', sans-serif;
     background-image: linear-gradient(to right, black,rgb(154, 1, 143),black);
-
+    position: relative;
     h6{
        font-size: 1rem; 
        font-style: italic;
@@ -223,6 +267,17 @@
     
 }
 
+@media screen and (max-width: 992px){
+    .flexMariano{
+        margin-top: 0;
+    }
+}
+
 li{
     color: white;
+}
+
+.logoRedesFlex{
+    display: flex;
+    gap:1rem
 }

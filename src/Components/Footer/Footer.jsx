@@ -47,9 +47,11 @@ const Footer = () => {
                     <img src={logo} alt="Logo Mp travesias" />
                     <h1>{t("Footer.contacto")}</h1>
                     <p>{t("Footer.cel")}: +549-3548-407934</p>
-                    <img src={logow} className="logoRedes" alt="" />
-                    <img src={logoi} className="logoRedes" alt="" />
-                    <img src={logof} className="logoRedes" alt="" />
+                    <div className="logoRedesFlex">
+                        <img src={logow} className="logoRedes" alt="" />
+                        <img src={logoi} className="logoRedes" alt="" />
+                        <img src={logof} className="logoRedes" alt="" />
+                    </div>
                 </div>
             </div>
             <div className="trianguloFooter2"></div>
