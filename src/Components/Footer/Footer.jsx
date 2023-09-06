@@ -22,7 +22,7 @@ const Footer = () => {
             <div className="logoCanam">
                 <p>>>>>></p><img src={canam} alt="" /><p>>>>>></p>
             </div>
-            <div className="sponsorsFlex">
+            <div className="sponsorsFlex" id="footer">
 
                 <img src={honda} alt="Logo Honda" />
                 <img src={polaris} alt="Logo Polaris" />
@@ -33,7 +33,7 @@ const Footer = () => {
             <img src={fotoFooter} className="fotoFooter" alt="Utv" />
             <div className="flexFooter">
                 <div>
-                    <ul className="navBarFooter" id="footer">
+                    <ul className="navBarFooter" >
                     <NavLink to="/"><li>+ {t("Footer.inicio")}</li></NavLink> 
                     <NavLink to="/Nosotros"><li>+ {t("Footer.nosotros")}</li></NavLink> 
                     <NavLink to="/Travesias"><li>+ {t("Footer.travesias")}</li></NavLink> 
