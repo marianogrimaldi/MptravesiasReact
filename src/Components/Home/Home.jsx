@@ -10,6 +10,7 @@ import cuatri from "../../assets/cuatriSaludando.png"
 import icasa from "../../assets/logoMarcas/icasa.png"
 import { Link } from "react-router-dom"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
 
 const Home = () => {
 
@@ -17,6 +18,7 @@ const Home = () => {
 
     return (
         <div className="animation">
+            <Menu/>
             <img src={topo} className="mapa" alt="Imagen mapa topografico" />
             <h1>{t("Home.activa")} </h1>
             <div className="logoHome">

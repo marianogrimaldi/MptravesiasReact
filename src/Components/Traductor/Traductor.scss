@@ -19,7 +19,13 @@
         margin-top: 1.8rem;
         margin-left: .5rem;
     }
-    
+}
+
+@media screen and (max-width: 768px){
+    .flags{
+        margin-top: -.5rem;
+        margin-left: 6rem;
+    }
 }
 
 
