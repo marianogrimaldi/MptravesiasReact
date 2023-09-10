@@ -47,6 +47,17 @@
     }
 }
 
+@media screen and (max-width: 764px){
+    .logoCanam{
+        img{
+             width: 8rem;
+        }
+        p{
+            font-size: 2rem;
+        }
+    }
+}
+
 .sponsorsFlex{
     display: flex;
     justify-content: center;
@@ -69,6 +80,14 @@
     }
 }
 
+@media screen and (max-width: 764px){
+    .sponsorsFlex{
+        img{
+            width: 4rem;
+        }
+    }
+}
+
 .fotoFooter{
     max-width: 100%;
     position: absolute;
@@ -87,7 +106,15 @@
     margin-top: -7.7rem;
     opacity: .3;
     left: 3rem;
-   
+}
+
+@media screen and (max-width: 764px){
+    .trianguloFooter{
+        border-right: 2rem solid transparent;
+        border-top: 2rem solid transparent;
+        border-left: 2rem solid rgb(47, 255, 5);
+        border-bottom: 2rem solid rgb(47, 255, 5);
+    }
 }
 
 .trianguloFooter3{
@@ -106,6 +133,15 @@
 @media screen and (max-width: 992px){
     .trianguloFooter3{
         margin-top: -10rem;
+    }
+}
+
+@media screen and (max-width: 764px){
+    .trianguloFooter3{
+        border-right: 2rem solid transparent;
+    border-top: 2rem solid transparent;
+    border-left: 2rem solid rgb(160, 0, 133);
+    border-bottom: 2rem solid rgb(160, 0, 133);
     }
 }
 .flexFooter{
@@ -157,6 +193,21 @@
     }
 }
 
+@media screen and (max-width: 764px){
+    .logosFooter{
+        margin-top: 0rem;
+        img{
+            width: 8rem;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        .logoRedes{
+            width: 1.5rem;
+        }
+    }
+}
+
 .trianguloFooter2{
     width: 0;
     height: 0;
@@ -178,6 +229,12 @@
         border-left: 8rem solid transparent;
         border-bottom: 8rem solid  rgb(47, 255, 5);
         margin-top: -16rem;
+    }
+}
+
+@media screen and (max-width: 764px){
+    .trianguloFooter2{
+        display: none;
     }
 }
 
@@ -274,6 +331,12 @@
     }
 }
 
+@media screen and (max-width: 764px){
+    .flexMariano{
+        margin-top: -1rem;
+    }
+}
+
 li{
     color: white;
 }
@@ -301,4 +364,11 @@ li{
         margin-top: -10rem;
         margin-left: 4rem;
 }
+
+@media screen and (max-width: 764px){
+    .icasaFooter{
+        width: 4rem;
+    }
+}
+
 }
