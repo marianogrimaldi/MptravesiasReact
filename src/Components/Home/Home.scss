@@ -5,6 +5,12 @@
      margin-top: 8rem;
 }
 
+@media screen and (max-width: 764px){
+    .mapa{
+        margin-top: 5rem;
+    }
+}
+
 h1{
     position: relative;
     font-size: 6rem;
@@ -18,6 +24,13 @@ h1{
 @media screen and (max-width: 992px){
     h1{
         font-size: 4rem;
+    }
+}
+
+@media screen and (max-width: 764px){
+    h1{
+        padding-top: 6rem;
+        font-size: 2rem;
     }
 }
 
@@ -60,6 +73,12 @@ h1{
     opacity: .5;
 }
 
+@media screen and (max-width: 992px){
+    .triangulo{
+        display: none;
+    }
+}
+
 .triangulo2 {
     width: 0;
     height: 0;
@@ -72,14 +91,17 @@ h1{
     opacity: .5;
 }
 
-@media screen and (max-width: 992px){
-    .triangulo{
-        display: none;
+@media screen and (max-width: 768px){
+    .triangulo2{
+        top:7rem;
+        border-right: 5rem solid red;
+    border-top: 5rem solid red;
+    border-left: 5rem solid transparent;
+    border-bottom: 5rem solid transparent;
     }
 }
 
 .flecha{
-
     display: flex;
     justify-content: center;
     margin-top: 2rem;
@@ -92,8 +114,6 @@ h1{
         animation-duration:  2s ; 
         animation-iteration-count: infinite;  
     } 
-
-    
 }
 
 @keyframes flecha {
@@ -103,6 +123,23 @@ h1{
 
         100%{width: 4rem;}
 }
+
+@media screen and (max-width: 768px){
+    .flecha{
+        margin-top: 0;
+        img{
+            width: 2rem;
+        }
+    }
+    @keyframes flecha {
+        0% {width:2rem;}
+
+        50%{width: 3rem;}
+
+        100%{width: 2rem;}
+}
+}
+
 
 .brujula{
     width: 20rem;
@@ -141,6 +178,13 @@ h1{
     }
 }
 
+@media screen and (max-width: 768px){
+    .subTit1{
+        margin-top: 1rem;
+        font-size: 2rem;
+    }
+}
+
 .utvCanam{
     max-width: 100%;
     position: absolute;
@@ -150,6 +194,12 @@ h1{
 @media screen and (max-width: 992px){
     .utvCanam{
         top: 39.5rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .utvCanam{
+        top: 25rem;
     }
 }
 
@@ -168,6 +218,13 @@ h3{
     h3{
         font-size: 3rem;
         text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    h3{
+       font-size: 2rem;
+       margin-top: 14rem;
     }
 }
 
@@ -196,6 +253,12 @@ h3{
     }
 }
 
+@media screen and (max-width: 768px){
+    .triangulo3{
+        display: none;
+    }
+}
+
 .imgTierra{
     max-width: 100%;
     opacity: .3;
@@ -221,6 +284,12 @@ h4{
     }
 }
 
+@media screen and (max-width: 768px){
+    h4{
+        font-size: 2rem;
+    }
+}
+
 .cuatriSaludo{
     width: 20rem;
     position: absolute;
@@ -235,5 +304,12 @@ h4{
         margin-left: 1rem;
         width: 15rem;
         margin-top: -18rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .cuatriSaludo{
+        width: 8rem;
+        margin-top: -10rem;
     }
 }
