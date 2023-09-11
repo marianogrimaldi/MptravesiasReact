@@ -110,10 +110,7 @@
 
 @media screen and (max-width: 764px){
     .trianguloFooter{
-        border-right: 2rem solid transparent;
-        border-top: 2rem solid transparent;
-        border-left: 2rem solid rgb(47, 255, 5);
-        border-bottom: 2rem solid rgb(47, 255, 5);
+        display: none;
     }
 }
 
@@ -138,10 +135,7 @@
 
 @media screen and (max-width: 764px){
     .trianguloFooter3{
-        border-right: 2rem solid transparent;
-    border-top: 2rem solid transparent;
-    border-left: 2rem solid rgb(160, 0, 133);
-    border-bottom: 2rem solid rgb(160, 0, 133);
+        display: none;
     }
 }
 .flexFooter{
@@ -374,7 +368,7 @@ li{
 
 @media screen and (max-width: 764px){
     .icasaFooter{
-        width: 6rem;
+        width: 5rem;
         margin-top: -8rem;
     }
 }
