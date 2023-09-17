@@ -3,6 +3,7 @@ import tour from "../../assets/tourPrivado.jpg"
 import icasa from "../../assets/logoMarcas/icasa.png"
 import video from "../../assets/logoVideo.png"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
 
 const Tour = () =>{
 
@@ -10,6 +11,7 @@ const Tour = () =>{
 
     return (
         <div className="animation">
+            <Menu/>
             <h1 className="titleTour">{t("Tour.titulo")} +</h1>
             <p className="pTour">{t("Tour.texto")}</p>
             <div>

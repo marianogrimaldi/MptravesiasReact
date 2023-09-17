@@ -3,6 +3,7 @@ import { RViewer, RViewerTrigger } from "react-viewerjs";
 import icasa from "../../assets/logoMarcas/icasa.png"
 import imgFondo from "../../assets/corrusel2.jpg"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
 
 
 const Galeria = () =>{
@@ -31,6 +32,7 @@ const Galeria = () =>{
 
     return (
         <div className="animation">
+            <Menu/>
             <h1 className="titleGaleria">{t("Galeria.titulo")} +</h1>
             <div>
                 <div className="trianguloGal"></div>

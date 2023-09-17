@@ -16,6 +16,7 @@ import fin from "../../assets/finalizada.png"
 import pronto from "../../assets/cooming.png"
 import desierto from "../../assets/desierto.jpg"
 import { useTranslation } from "react-i18next"
+import Menu from "../Header/Menu"
 
 const Travesias = () =>{
 
@@ -23,6 +24,7 @@ const Travesias = () =>{
 
     return (
         <div className="animation">
+            <Menu/>
             <h1 className="titleTravesias">{t("Travesias.titulo")} +</h1>
             <div>
                 <div className="trianguloNos"></div>
