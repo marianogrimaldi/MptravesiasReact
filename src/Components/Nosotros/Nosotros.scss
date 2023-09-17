@@ -124,7 +124,7 @@
         display: block;
         max-width: 100%;
         position: absolute;
-        top:1rem;
+        top:5rem;
         z-index: -2;
         opacity: .5;
     }
@@ -156,6 +156,7 @@
         width: 3rem;
         left: 20rem;
         top:6rem;
+        z-index: 1;
     }
 }
 

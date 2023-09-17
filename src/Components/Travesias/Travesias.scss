@@ -12,11 +12,26 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .titleTravesias{
+        font-size: 2rem;
+        z-index: 2;
+    }
+}
+
 .pTra{
     font-size: 1.5rem;
     position: relative;
     font-family: 'Gobold', sans-serif;
     margin: 2rem;
+}
+
+@media screen and (max-width: 768px){
+    .pTra{
+        font-size: 1rem;
+        margin: 1rem;
+        text-align: center;
+    }
 }
 
 .gridSalidas{
@@ -73,18 +88,32 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .gridSalidas{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(12,1fr);
+    }
+}
+
 .imgDesierto{
     max-width: 100%;
     position: absolute;
     margin-top: -12rem;
     opacity: .5;
-    z-index: -1;
-    
+    z-index: -1;  
 }
+
+
 
 @media screen and (max-width: 992px){
     .imgDesierto{
         height: 200rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .imgDesierto{
+        display: none;
     }
 }
 

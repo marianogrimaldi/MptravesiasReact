@@ -11,6 +11,12 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .titleTour{
+        font-size: 2rem;
+    }
+}
+
 .pTour{
     font-family: 'Gobold', sans-serif;
     font-size: 1.5rem;
@@ -28,12 +34,24 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .pTour{
+        font-size: 1rem;
+    }
+}
+
 .imgTour{
     max-width: 100%;
     position: absolute;
     top:8rem;
     opacity: .5;
     z-index: -1;
+}
+
+@media screen and (max-width: 768px){
+    .imgTour{
+        top:5rem;
+    }
 }
 
 .logoVideo{
@@ -62,4 +80,20 @@
         margin-left: 35rem;
        
     }
+}
+
+@media screen and (max-width: 768px){
+    .logoVideo{
+        width: 3rem;
+        margin-top: -4rem;
+        margin-left: 20rem;
+        @keyframes animacionVideo {
+        0% {width:3rem ;}
+    
+        50%{width: 3.5rem;}
+    
+        100%{width: 3rem;}
+    }  
+    
+}
 }
