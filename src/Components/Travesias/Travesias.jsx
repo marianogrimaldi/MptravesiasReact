@@ -86,8 +86,8 @@ const Travesias = () =>{
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes9")}</h2>
                     <p>+ {t("Travesias.desafio")} {t("Travesias.salares")}</p>
-                    <img src={sept} alt="" />
-                    <img src={pronto} className="cooming" alt="" />
+                    <img src={sept} className="completa" alt="" />
+                    <img src={fin} className="imgFin" alt="" />
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes10")}</h2>
