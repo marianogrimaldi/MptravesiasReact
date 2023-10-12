@@ -1,8 +1,14 @@
 .mapa{
     width: 100%;
      position:absolute;
-     opacity: .3;
+     opacity: .6;
      margin-top: 6rem;
+}
+
+@media screen and (max-width: 768px){
+    .mapa{
+        margin-top: 4rem;
+    }
 }
 
 @media screen and (max-width: 479px){
@@ -23,6 +29,7 @@ h1{
 
 @media screen and (max-width: 768px){
     h1{
+        padding-top: 8rem;
         font-size: 4rem;
     }
 }
@@ -75,7 +82,8 @@ h1{
 
 @media screen and (max-width: 768px){
     .triangulo{
-        display: none;
+        top: 15rem;
+        left: 34rem;
     }
 }
 
@@ -90,6 +98,8 @@ h1{
     top: 10rem;
     opacity: .5;
 }
+
+
 
 @media screen and (max-width: 479px){
     .triangulo2{
@@ -152,7 +162,7 @@ h1{
 @media screen and (max-width: 768px){
     .brujula{
         width: 10rem;
-        top: 24rem;
+        top: 21rem;
     }
 }
 
@@ -178,7 +188,7 @@ h1{
 
 @media screen and (max-width: 768px){
     .subTit1{
-        margin-top: 2.7rem;
+        margin-top: .8rem;
         font-size: 3rem;
         text-align: center;
         z-index: -1;
@@ -201,7 +211,7 @@ h1{
 
 @media screen and (max-width: 768px){
     .utvCanam{
-        top: 39.5rem;
+        top: 35rem;
     }
 }
 
@@ -251,8 +261,8 @@ h3{
 
 @media screen and (max-width: 768px){
     .triangulo3{
-        left: 35rem;
-        top:70rem;
+        left: 30rem;
+        top:65rem;
         z-index: 1;
         border-right: 8rem solid red;
         border-top: 8rem solid transparent;

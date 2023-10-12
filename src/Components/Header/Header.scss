@@ -21,7 +21,11 @@
     }
 }
 
-
+@media screen and (max-width: 768px){
+    .navBar{
+        gap: 1rem;
+    }
+}
 
 .flexLogoNav{
     display: flex;
@@ -47,10 +51,15 @@
     filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
 }
 
+@media screen and (max-width: 768px){
+    .logoMp{
+        width: 12rem;
+    }
+}
+
 @media screen and (max-width: 479px){
     .logoMp{
         width: 8rem;
-        
     }
 }
 .nav__img{
