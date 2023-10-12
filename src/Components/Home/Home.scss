@@ -5,7 +5,7 @@
      margin-top: 6rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .mapa{
         margin-top: 4rem;
     }
@@ -27,7 +27,7 @@ h1{
     z-index: 1;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     h1{
         padding-top: 8rem;
         font-size: 4rem;
@@ -55,7 +55,7 @@ h1{
         }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .logoHome{
         img{
             width: 15rem;
@@ -80,7 +80,7 @@ h1{
     opacity: .5;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .triangulo{
         top: 15rem;
         left: 34rem;
@@ -165,7 +165,7 @@ h1{
     filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .brujula{
         width: 10rem;
         top: 21rem;
@@ -192,7 +192,7 @@ h1{
     background-image: linear-gradient(to right, black,purple);
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .subTit1{
         margin-top: .8rem;
         font-size: 3rem;
@@ -215,7 +215,7 @@ h1{
     top:44rem
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .utvCanam{
         top: 35rem;
     }
@@ -238,7 +238,7 @@ h3{
     text-shadow: 2px 2px 2px black;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     h3{
         font-size: 3rem;
         text-align: center;
@@ -265,7 +265,7 @@ h3{
     left: 45rem;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .triangulo3{
         left: 30rem;
         top:65rem;
@@ -300,7 +300,7 @@ h4{
     color: white;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     h4{
         font-size: 3rem;
         text-align: center;
@@ -325,7 +325,7 @@ h4{
     filter: drop-shadow(1rem 1rem 1rem rgb(0, 0, 0));
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .cuatriSaludo{
         margin-left: 1rem;
         width: 15rem;

@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .navBar{
         gap: 1rem;
     }
@@ -39,7 +39,7 @@
     z-index: 3;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .flexLogoNav{
         max-width: 100%;
     }
@@ -51,7 +51,7 @@
     filter: drop-shadow(1px 1px 1px rgb(0, 0, 0));
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .logoMp{
         width: 12rem;
     }
