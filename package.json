@@ -17,6 +17,7 @@
     "react-viewerjs": "^0.1.9",
     "sass": "^1.66.1"
   },
+  "homepage": "http://marcelopuchattravesias.com/",
   "devDependencies": {
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",

@@ -21,9 +21,9 @@ const Footer = () => {
     return (
         <div>
             <div className="logoCanam">
-                <p>>>>>></p>
+                
                 <a href="https://canam.com.ar/" target="_blank"><img src={canam} alt="" /></a>
-                <p>>>>>></p>
+                
             </div>
             <div className="sponsorsFlex" id="footer">
 
