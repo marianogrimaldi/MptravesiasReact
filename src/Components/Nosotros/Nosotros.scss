@@ -7,12 +7,12 @@
 
 
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .titleMpt{
         font-size: 3rem;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .titleMpt{
         font-size: 2rem;
     }
@@ -31,7 +31,7 @@
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .pMpt{
         font-size: 1rem;
         margin: 1rem;
@@ -67,13 +67,13 @@
     left: 63rem;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .trianguloNos2{
         left: 35rem;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .trianguloNos2{
         left: 10rem;
         top:6rem;
@@ -93,14 +93,14 @@
     left: 65rem;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .trianguloNos3{
         left: 37rem;
         
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .trianguloNos3{
         left: 13rem;
         top:5rem;
@@ -119,7 +119,7 @@
     display: none;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .imgFondoCelu{
         display: block;
         max-width: 100%;
@@ -144,14 +144,14 @@
 
 
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .logoIcasaNos{
         left: 37rem;
         top:12rem;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .logoIcasaNos{
         width: 3rem;
         left: 20rem;
@@ -180,7 +180,7 @@
     100%{width: 6rem;}
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .logoVideoN{
         margin-top: -7rem;
         margin-left: 35rem;
@@ -188,11 +188,11 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .logoVideoN{
         width: 3rem;
         margin-top: -4rem;
-        margin-left: 20rem;
+        margin-left: 11rem;
      @keyframes animacionVideoN {
         0% {width:3rem ;}
     

@@ -5,13 +5,13 @@
     font-style: italic;
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .titleTour{
         font-size: 3rem;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .titleTour{
         font-size: 2rem;
     }
@@ -28,13 +28,13 @@
     
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .pTour{
         padding-bottom: 5rem;
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .pTour{
         font-size: 1rem;
     }
@@ -48,9 +48,24 @@
     z-index: -1;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .imgTour{
-        top:5rem;
+       display: none;
+    }
+}
+
+.imgTourMobile{
+    display: none;
+}
+
+@media screen and (max-width: 479px){
+    .imgTourMobile{
+        display: block;
+        max-width: 100%;
+        position: absolute;
+        top:4rem;
+        opacity: .5;
+        z-index: -1;
     }
 }
 
@@ -74,7 +89,7 @@
     100%{width: 6rem;}
 }
 
-@media screen and (max-width: 992px){
+@media screen and (max-width: 768px){
     .logoVideo{
         margin-top: -7rem;
         margin-left: 35rem;
@@ -82,11 +97,11 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 479px){
     .logoVideo{
         width: 3rem;
         margin-top: -4rem;
-        margin-left: 20rem;
+        margin-left: 11rem;
         @keyframes animacionVideo {
         0% {width:3rem ;}
     
