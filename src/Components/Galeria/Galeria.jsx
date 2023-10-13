@@ -32,6 +32,7 @@ const Galeria = () =>{
 
     return (
         <div className="animation">
+            <div className="bgcGallery">
             <Menu/>
             <h1 className="titleGaleria">{t("Galeria.titulo")} +</h1>
             <div>
@@ -54,6 +55,7 @@ const Galeria = () =>{
                     }) }
                 </div>
              </RViewer>
+             </div>
         </div>
     )
 }

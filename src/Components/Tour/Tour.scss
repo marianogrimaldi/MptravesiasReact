@@ -5,7 +5,7 @@
     font-style: italic;
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .titleTour{
         font-size: 3rem;
     }
@@ -28,7 +28,7 @@
     
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .pTour{
         padding-bottom: 5rem;
     }
@@ -46,6 +46,12 @@
     top:8rem;
     opacity: .5;
     z-index: -1;
+}
+
+@media screen and (max-width: 992px){
+    .imgTour{
+        top:7rem;
+    }
 }
 
 @media screen and (max-width: 479px){
@@ -89,7 +95,7 @@
     100%{width: 6rem;}
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
     .logoVideo{
         margin-top: -7rem;
         margin-left: 35rem;
