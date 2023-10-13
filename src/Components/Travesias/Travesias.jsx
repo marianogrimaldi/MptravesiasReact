@@ -24,7 +24,7 @@ const Travesias = () =>{
 
     return (
         <div className="animation">
-            <div>
+            <div className="bgcTrav">
             <Menu/>
             <h1 className="titleTravesias">{t("Travesias.titulo")} +</h1>
             <div>
