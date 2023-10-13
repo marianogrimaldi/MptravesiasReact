@@ -24,6 +24,7 @@ const Travesias = () =>{
 
     return (
         <div className="animation">
+            <div>
             <Menu/>
             <h1 className="titleTravesias">{t("Travesias.titulo")} +</h1>
             <div>
@@ -108,6 +109,7 @@ const Travesias = () =>{
                     <img src={pronto} className="cooming" alt="" />
                 </div>
                
+            </div>
             </div>
         </div>
     )
