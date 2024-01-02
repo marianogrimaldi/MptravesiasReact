@@ -93,20 +93,20 @@ const Travesias = () =>{
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes10")}</h2>
                     <p>+ {t("Travesias.desafio")} CORDOBA JUJUY</p>
-                    <img src={oct} alt="" />
-                    <img src={pronto} className="cooming" alt="" />
+                    <img src={oct} className="completa" alt="" />
+                    <img src={fin} className="imgFin" alt="" />
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes11")}</h2>
                     <p>+ {t("Travesias.desafio")} MEXICANA LA RIOJA</p>
-                    <img src={nov} alt="" />
-                    <img src={pronto} className="cooming" alt="" />
+                    <img src={nov} className="completa" alt="" />
+                    <img src={fin} className="imgFin" alt="" />
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes12")}</h2>
                     <p>+ {t("Travesias.desafio")} {t("Travesias.despedida")} 2023</p>
-                    <img src={dic} alt="" />
-                    <img src={pronto} className="cooming" alt="" />
+                    <img src={dic} className="completa" alt="" />
+                    <img src={fin} className="imgFin" alt="" />
                 </div>
                
             </div>
