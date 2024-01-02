@@ -39,74 +39,74 @@ const Travesias = () =>{
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes1")}</h2>
                     <p>+ {t("Travesias.desafio")} MALARGÜE MENDOZA</p>
-                    <img src={enero} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={enero}  alt="" />
+                    {/* <img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes2")}</h2>
                     <p>+ {t("Travesias.desafio")} FIAMBALA</p>
-                    <img src={febrero} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={febrero}   alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes3")}</h2>
                     <p>+ {t("Travesias.desafio")} {t("Travesias.volcan")} GALAN CATAMARCA</p>
-                    <img src={marzo} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={marzo}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes4")}</h2>
                     <p>+ {t("Travesias.desafio")} CORDOBA</p>
-                    <img src={abril} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={abril}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes5")}</h2>
                     <p>+ {t("Travesias.desafio")} GUANDACOL - LA RIOJA</p>
-                    <img src={mayo} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={mayo}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes6")}</h2>
                     <p>+ {t("Travesias.desafio")} CATAMARCA - LA RIOJA</p>
-                    <img src={junio} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={junio}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes7")}</h2>
                     <p>+ {t("Travesias.desafio")} CAFAYATE SALTA</p>
-                    <img src={julio} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={julio}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes8")}</h2>
                     <p>+ {t("Travesias.desafio")} {t("Travesias.arena")} MENDOZA</p>
-                    <img src={agosto} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={agosto}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes9")}</h2>
                     <p>+ {t("Travesias.desafio")} {t("Travesias.salares")}</p>
-                    <img src={sept} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={sept}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes10")}</h2>
                     <p>+ {t("Travesias.desafio")} CORDOBA JUJUY</p>
-                    <img src={oct} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={oct}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes11")}</h2>
                     <p>+ {t("Travesias.desafio")} MEXICANA LA RIOJA</p>
-                    <img src={nov} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={nov}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes12")}</h2>
                     <p>+ {t("Travesias.desafio")} {t("Travesias.despedida")} 2023</p>
-                    <img src={dic} className="completa" alt="" />
-                    <img src={fin} className="imgFin" alt="" />
+                    <img src={dic}  alt="" />
+                    {/*<img src={fin} className="imgFin" alt="" />*/}
                 </div>
                
             </div>
