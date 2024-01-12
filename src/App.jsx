@@ -16,14 +16,14 @@ function App() {
   return (
 
     <BrowserRouter>
-    <ScrollToTop/>
+      <ScrollToTop/>
       <Header />
       <Routes>
-      <Route path="/" element={<Home/>}/>
-      <Route path="/Nosotros" element={<Nosotros/>}/>
-      <Route path="/Travesias" element={<Travesias/>}/>
-      <Route path="/Tour" element={<Tour/>}/>
-      <Route path="/Galeria" element={<Galeria/>}/>
+        <Route path="/" element={<Home/>}/>
+        <Route path="/Nosotros" element={<Nosotros/>}/>
+        <Route path="/Travesias" element={<Travesias/>}/>
+        <Route path="/Tour" element={<Tour/>}/>
+        <Route path="/Galeria" element={<Galeria/>}/>
       </Routes>
       <Footer/>
     </BrowserRouter>
