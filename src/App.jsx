@@ -24,6 +24,7 @@ function App() {
         <Route path="/Travesias" element={<Travesias/>}/>
         <Route path="/Tour" element={<Tour/>}/>
         <Route path="/Galeria" element={<Galeria/>}/>
+        
       </Routes>
       <Footer/>
     </BrowserRouter>

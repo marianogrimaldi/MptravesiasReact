@@ -25,6 +25,17 @@ const Galeria = () =>{
         "/galeria/fotoGalleria12-min.jpg",
         "/galeria/fotoGalleria13-min.jpg",
         "/galeria/fotoGalleria14-min.jpg",
+        "/galeria/fotoGalleria15-min.jpg",
+        "/galeria/fotoGalleria16-min.jpg",
+        "/galeria/fotoGalleria17-min.jpg",
+        "/galeria/fotoGalleria18-min.jpg",
+        "/galeria/fotoGalleria19-min.jpg",
+        "/galeria/fotoGalleria20-min.jpg",
+        "/galeria/fotoGalleria21-min.jpg",
+        "/galeria/fotoGalleria22-min.jpg",
+        "/galeria/fotoGalleria23-min.jpg",
+        "/galeria/fotoGalleria24-min.jpg",
+        "/galeria/fotoGalleria25-min.jpg",
        
         
        
@@ -41,7 +52,7 @@ const Galeria = () =>{
                 <div className="trianguloGal3"></div>
             </div>
             <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasaNos" alt="Logo Icasa" /></a>
-            <img src={imgFondo} className="imgFondoGal" alt="" />
+            
             <RViewer imageUrls={imagenes}>
                 <div className="imgGrid">
                     {imagenes.map((imagen, index)=> {
