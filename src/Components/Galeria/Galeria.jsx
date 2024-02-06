@@ -8,6 +8,8 @@ import Menu from "../Header/Menu"
 
 const Galeria = () =>{
 
+ 
+
     const { t } = useTranslation()
 
     let imagenes = [
@@ -36,15 +38,15 @@ const Galeria = () =>{
         "/galeria/fotoGalleria23-min.jpg",
         "/galeria/fotoGalleria24-min.jpg",
         "/galeria/fotoGalleria25-min.jpg",
-       
-        
-       
     ]
+
+
 
     return (
         <div className="animation">
             <div className="bgcGallery">
             <Menu/>
+            
             <h1 className="titleGaleria">{t("Galeria.titulo")} +</h1>
             <div>
                 <div className="trianguloGal"></div>

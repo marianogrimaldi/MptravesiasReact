@@ -47,7 +47,7 @@
     
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 992px){
     .imgGrid{
         margin-left: 5rem;
         margin-right: 5rem;
@@ -161,4 +161,8 @@
 
 .bgcGallery{
     background-image: linear-gradient(120deg,black, rgb(118, 3, 116), rgb(132, 255, 0),green);
+}
+
+.seTime{
+    font-size: 10rem;
 }
