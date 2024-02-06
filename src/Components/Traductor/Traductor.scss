@@ -24,8 +24,8 @@
 
 @media screen and (max-width: 479px){
     .flags{
-        margin-top: -1rem;
-        margin-left: 5rem;
+        margin-top: 0rem;
+        margin-left: 9.5rem;
         width: 1.8rem;
         height: .9rem;
     }
@@ -50,6 +50,8 @@
     font-size: 1rem;
 }
 
+
+
 .contenido-dropdown {
     display: none;
     position: absolute;
@@ -61,6 +63,12 @@
     left: -135px;
 }
 
+@media screen and (max-width: 479px){
+    .contenido-dropdown{
+        left: 0;
+    }
+}
+
 .contenido-dropdown a {
     color: #333;
     padding: 5px 18px;
@@ -69,6 +77,12 @@
 }
 
 .dropdown:hover .contenido-dropdown {
-    display: block;
+    
     display: flex;
+}
+
+@media screen and (max-width: 479px){
+    .dropdown:hover .contenido-dropdown{
+        display: block;
+    }
 }
