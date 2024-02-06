@@ -16,8 +16,8 @@
 @media screen and (max-width: 992px){
     .flags{
         position: absolute;
-        margin-top: 1rem;
-        margin-left: 11rem;
+        margin-top: 0.5rem;
+        margin-left: 20.5rem;
         
     }
 }
@@ -61,6 +61,13 @@
     z-index: 1;
     margin-top: 0rem;
     left: -135px;
+}
+
+@media screen and (max-width: 992px){
+    .contenido-dropdown{
+        left: -330px;
+        margin-top: -2.3rem;
+    }
 }
 
 @media screen and (max-width: 479px){
