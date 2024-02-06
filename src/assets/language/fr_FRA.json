@@ -59,6 +59,9 @@
             "accion":"CTION",
             "contacto":"CONTACT",
             "cel":"TÉLÉ"
-        } 
+        },
+        "Idioma":{
+            "titulo":"IDIOME"
+        }    
       }
       }

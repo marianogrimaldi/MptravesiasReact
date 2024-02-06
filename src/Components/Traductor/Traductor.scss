@@ -32,4 +32,43 @@
 }
 
 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
 
+.boton-desplegable {
+    padding: 10px;
+    background-color: #000000;
+    border-radius: 1rem;
+    /* Cambia el color del botón según tus preferencias */
+    color: antiquewhite;
+    border: none;
+    cursor: pointer;
+    font-family: 'Gobold', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
+}
+
+.contenido-dropdown {
+    display: none;
+    position: absolute;
+    background-image:linear-gradient(black,rgb(34, 1, 1));
+    /* Cambia el color del fondo del menú desplegable según tus preferencias */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 0rem;
+    left: -135px;
+}
+
+.contenido-dropdown a {
+    color: #333;
+    padding: 5px 18px;
+    display: block;
+    text-decoration: none;
+}
+
+.dropdown:hover .contenido-dropdown {
+    display: block;
+    display: flex;
+}

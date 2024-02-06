@@ -60,6 +60,9 @@
         "accion":"CCION",
         "contacto":"CONTACTO",
         "cel":"CEL"
+    },
+    "Idioma":{
+        "titulo":"IDIOMA"
     }   
   }
   }

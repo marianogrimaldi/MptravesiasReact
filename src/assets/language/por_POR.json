@@ -59,7 +59,10 @@
             "accion":"ÇÃO",
             "contacto":"CONTATO",
             "cel":"CEL"
-        }      
+        },
+        "Idioma":{
+            "titulo":"IDIOMA"
+        }         
         } 
       }
       

@@ -59,7 +59,10 @@
             "accion":"KTION",
             "contacto":"KONTAKT",
             "cel":"HANDY"
-    }   
+    },
+    "Idioma":{
+        "titulo":"IDIOM"
+    }      
         }     
       }
       

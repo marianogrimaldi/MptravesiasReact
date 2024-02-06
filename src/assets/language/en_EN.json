@@ -59,6 +59,9 @@
       "accion":"CTION",
       "contacto":"CONTACT",
       "cel":"CELL"
-  }   
+  },
+  "Idioma":{
+    "titulo":"LANGUAGE"
+}      
 }
 }
