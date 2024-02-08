@@ -1,7 +1,7 @@
 import "./Galeria.scss"
 import { RViewer, RViewerTrigger } from "react-viewerjs";
 import icasa from "../../assets/logoMarcas/icasa.png"
-import imgFondo from "../../assets/corrusel2.jpg"
+
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 

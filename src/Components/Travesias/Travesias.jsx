@@ -14,7 +14,7 @@ import nov from "../../assets/imgSalidas/mexicanaLarioja.jpg"
 import dic from "../../assets/imgSalidas/finDe.jpg"
 import fin from "../../assets/finalizada.png"
 import pronto from "../../assets/cooming.png"
-import desierto from "../../assets/desierto.jpg"
+
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 
@@ -32,7 +32,7 @@ const Travesias = () =>{
                 <div className="trianguloNos2"></div>
                 <div className="trianguloNos3"></div>
             </div>
-            <img src={desierto} className="imgDesierto" alt="" />
+            
             <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasaNos" alt="Logo Icasa" /></a>
             <p className="pTra">{t("Travesias.texto")}</p>
             <div className="gridSalidas">

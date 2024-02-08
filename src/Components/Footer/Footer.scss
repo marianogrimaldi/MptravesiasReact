@@ -67,6 +67,7 @@
     align-items: center;
     padding-bottom: 2rem;
     position: relative;
+    z-index: 2;
     background-image: linear-gradient(to right, black,  #ff00ff, red, orange, yellow,  rgb(8, 255, 8),);
     img{
         width: 10rem;
