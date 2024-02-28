@@ -1,7 +1,7 @@
 import "./Galeria.scss"
 import { RViewer, RViewerTrigger } from "react-viewerjs";
 import icasa from "../../assets/logoMarcas/icasa.png"
-
+import logo from "../../assets/logoMarcelo.png"
 import { useTranslation } from "react-i18next"
 import Menu from "../Header/Menu"
 
@@ -70,15 +70,25 @@ const Galeria = () => {
                 </RViewer>
                 <div className="videosIns">
                     <div>
+                        <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
                             src="https://www.instagram.com/p/C3prH3ZOAzX/embed/"
                             frameborder="0"
                             allowfullscreen
-                        ></iframe>
+                        >
+                        </iframe>
+
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -88,6 +98,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -97,6 +111,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -106,6 +124,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -115,6 +137,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -124,6 +150,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -133,6 +163,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -142,6 +176,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -151,6 +189,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -160,6 +202,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
@@ -169,6 +215,10 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
+                    <div className="mask">
+                            <p className="textVideo">{t("Galeria.video")}</p>
+                        </div>
+                        <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
                         <iframe
                             width="300"
                             height="600"
