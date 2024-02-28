@@ -43,7 +43,7 @@ const Home = () => {
                 <h2>VISITÁ NUESTRAS REDES <br /> Y DISFRUTÁ DEL VIAJE + <br />NO TE PIERDAS <br />LA PRÓXIMA AVENTURA +</h2>
                 <iframe
                     title="Video de Instagram"
-                    width="400"
+                    width="380"
                     height="700"
                     src="https://www.instagram.com/p/CyBPoEDLS7_/embed/"
                     frameborder="0"
