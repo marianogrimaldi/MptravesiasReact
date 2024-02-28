@@ -18,12 +18,12 @@ const Home = () => {
 
     return (
         <div className="animation">
-            <Menu/>
+            <Menu />
             <img src={topo} className="mapa" alt="Imagen mapa topografico" />
             <h1>{t("Home.activa")} </h1>
-            
+
             <div className="logoHome">
-                <img src={logo}  alt="Logo Mptravesias" />
+                <img src={logo} alt="Logo Mptravesias" />
                 <a href="https://www.icasamotos.com.ar/" target="_blank"><img src={icasa} className="logoIcasa" alt="Logo Icasa" /></a>
             </div>
             <div className="triangulo"></div>
@@ -36,9 +36,21 @@ const Home = () => {
             <img src={canam} className="utvCanam" alt="Canam Utv" />
             <Link to="/Galeria"><h3>{t("Home.aventuras")} +</h3></Link>
             <div className="triangulo3"></div>
-            <img src={tierra}className="imgTierra" alt="tierra" />
+            <img src={tierra} className="imgTierra" alt="tierra" />
             <Link to="/Tour"><h4> + {t("Home.tour")}</h4></Link>
             <img src={cuatri} className="cuatriSaludo" alt="" />
+            <div className="videoHome">
+                <h2>VISITÁ NUESTRAS REDES <br /> Y DISFRUTÁ DEL VIAJE + <br />NO TE PIERDAS <br />LA PRÓXIMA AVENTURA +</h2>
+                <iframe
+                    title="Video de Instagram"
+                    width="400"
+                    height="700"
+                    src="https://www.instagram.com/p/CyBPoEDLS7_/embed/"
+                    frameborder="0"
+                    allowfullscreen
+                ></iframe>
+                
+            </div>
         </div>
     )
 }

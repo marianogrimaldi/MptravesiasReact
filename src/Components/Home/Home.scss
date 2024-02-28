@@ -340,3 +340,36 @@ h4{
         margin-top: -10rem;
     }
 }
+
+.videoHome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h2{
+        font-size: 5rem;
+        font-family: 'Gobold CUTS', sans-serif;
+        background-image: linear-gradient(to right, black, purple, black);
+    }
+}
+
+@media screen and (max-width: 992px){
+    .videoHome{
+        flex-direction: column;
+
+        h2{
+            font-size: 3rem;
+            text-align: center;
+        }
+    }
+}
+
+@media screen and (max-width: 479px){
+    .videoHome{
+
+        h2{
+            font-size: 2rem;
+            
+        }
+    }
+}
