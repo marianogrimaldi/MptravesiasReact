@@ -1,7 +1,7 @@
 {
     "translation": {
-        "Header":{
-            "idioma":"CHOISISSEZ VOTRE LANGUE",
+        "Header": {
+            "idioma": "CHOISISSEZ VOTRE LANGUE",
             "inicio": "DÉBUT",
             "nosotros": "NOUS",
             "travesias": "VOYAGES",
@@ -9,20 +9,23 @@
             "galeria": "GALERIE",
             "contacto": "CONTACT"
         },
-    
-        "Home":{
+        "Home": {
             "activa": "MODE HORS ROUTE",
             "travesias": "PASSAGE EN QUAD ET UTV",
             "aventuras": "AVENTURES À TRAVERS LE PAYS",
-            "tour":"VISITE PRIVÉE"
+            "tour": "VISITE PRIVÉE",
+            "text1": "LA PROCHAINE AVENTURE",
+            "text2": "ET PROFITEZ DU VOYAGE",
+            "text3": "NE TE PERDS PAS",
+            "text4": "LA PROCHAINE AVENTURE"
         },
-        "Nosotros":{
-            "titulo":"M.P. VOYAGES",
-            "texto":"Je m'appelle Marcelo Puchatt, j'ai 53 ans, je suis né dans la province du Chaco et je vis à La Falda, dans les Sierras de Córdoba, en Argentine, depuis deux décennies. Ma carrière de guide professionnel a débuté en 2002, mais mon passe-temps a commencé bien plus tôt. Quand j'avais 5 ans, mon père m'a offert ma première moto. Je viens d'une famille de motards. Mon grand-père, passionné d'aventure, a été pour moi une grande référence. Il était sauveteur dans le Chaco et chef mécanicien. Mon père m'a inculqué une passion pour la moto et l'automobile et c'est aujourd'hui ma source de travail. Tout au long de ma carrière, j'ai fait un peu de tout : j'ai couru des camions, des quads et des motos. J'ai fait partie de l'équipe de Daniel Mazzucco sur le Dakar en tant que mécanicien pendant deux ans et dans d'autres compétitions. Cette pratique soutenue de la navigation et l'ancienneté pour guider dans les montagnes, les déserts, les rivières, les salines et à travers des lieux inhospitaliers, me permettent aujourd'hui de transmettre mes connaissances à celui qui décide de vivre les voyages avec moi, en pouvant les réaliser avec conseil, expertise et sécurité totale. J'aime profondément ce que je fais et cette passion consacrée au travail acharné est ce que j'ai l'intention d'imprégner ceux qui me connaissent. Dans chacun des trajets, en plus d'assurer un parcours d'excellence, je fournis une assistance mécanique permanente et autorisée, en cas de panne d'un véhicule ou nécessitant une assistance technique. ALORS JE VOUS INVITE À FAIRE PARTIE DE CE MONDE MERVEILLEUX DE CROISÉE EN QUAD ET UTV, VOUS GARANTISSANT UNE EXPÉRIENCE UNIQUE ET INOUBLIABLE !!!"
+        "Nosotros": {
+            "titulo": "M.P. VOYAGES",
+            "texto": "Je m'appelle Marcelo Puchatt, j'ai 53 ans, je suis né dans la province du Chaco et je vis à La Falda, dans les Sierras de Córdoba, en Argentine, depuis deux décennies. Ma carrière de guide professionnel a débuté en 2002, mais mon passe-temps a commencé bien plus tôt. Quand j'avais 5 ans, mon père m'a offert ma première moto. Je viens d'une famille de motards. Mon grand-père, passionné d'aventure, a été pour moi une grande référence. Il était sauveteur dans le Chaco et chef mécanicien. Mon père m'a inculqué une passion pour la moto et l'automobile et c'est aujourd'hui ma source de travail. Tout au long de ma carrière, j'ai fait un peu de tout : j'ai couru des camions, des quads et des motos. J'ai fait partie de l'équipe de Daniel Mazzucco sur le Dakar en tant que mécanicien pendant deux ans et dans d'autres compétitions. Cette pratique soutenue de la navigation et l'ancienneté pour guider dans les montagnes, les déserts, les rivières, les salines et à travers des lieux inhospitaliers, me permettent aujourd'hui de transmettre mes connaissances à celui qui décide de vivre les voyages avec moi, en pouvant les réaliser avec conseil, expertise et sécurité totale. J'aime profondément ce que je fais et cette passion consacrée au travail acharné est ce que j'ai l'intention d'imprégner ceux qui me connaissent. Dans chacun des trajets, en plus d'assurer un parcours d'excellence, je fournis une assistance mécanique permanente et autorisée, en cas de panne d'un véhicule ou nécessitant une assistance technique. ALORS JE VOUS INVITE À FAIRE PARTIE DE CE MONDE MERVEILLEUX DE CROISÉE EN QUAD ET UTV, VOUS GARANTISSANT UNE EXPÉRIENCE UNIQUE ET INOUBLIABLE !!!"
         },
-        "Travesias":{
-            "titulo":"PASSAGE EN QUAD ET UTV",
-            "texto":"IMPORTANT : L'horaire peut être sujet à modification en raison des intempéries. Pour plus d’informations contactez via nos réseaux.",
+        "Travesias": {
+            "titulo": "PASSAGE EN QUAD ET UTV",
+            "texto": "IMPORTANT : L'horaire peut être sujet à modification en raison des intempéries. Pour plus d’informations contactez via nos réseaux.",
             "mes1": "JANVIER",
             "mes2": "FÉVRIER",
             "mes3": "MARS",
@@ -39,30 +42,30 @@
             "volcan": "VOLCAN",
             "salares": "SAINS ET VOLCANS",
             "arena": "SABLE ET NEIGE",
-            "despedida":"ADIEU"
+            "despedida": "ADIEU"
         },
-        "Tour":{
-            "titulo":"VISITE PRIVÉE",
-            "texto":"Dans cette modalité, nous organisons un voyage basé sur vos goûts et nos connaissances. Si vous avez un groupe d'amis et souhaitez vivre une expérience incroyable, demandez-nous les dates et les destinations, et nous redessinerons pour vous un voyage exclusif. En tenant toujours compte des conditions météorologiques, notre objectif est que vous ressentiez pleinement la nature dans un cadre sûr et fiable."
+        "Tour": {
+            "titulo": "VISITE PRIVÉE",
+            "texto": "Dans cette modalité, nous organisons un voyage basé sur vos goûts et nos connaissances. Si vous avez un groupe d'amis et souhaitez vivre une expérience incroyable, demandez-nous les dates et les destinations, et nous redessinerons pour vous un voyage exclusif. En tenant toujours compte des conditions météorologiques, notre objectif est que vous ressentiez pleinement la nature dans un cadre sûr et fiable."
         },
-        "Galeria":{
-            "titulo":"GALERIE",
-            "video":"+ ACTION - AVENTURE - ADRÉNALINE +"
+        "Galeria": {
+            "titulo": "GALERIE",
+            "video": "+ ACTION - AVENTURE - ADRÉNALINE +"
         },
-        "Footer":{
+        "Footer": {
             "inicio": "DÉBUT",
             "nosotros": "NOUS",
             "travesias": "VOYAGES",
             "tour": "VISITE PRIVÉE",
             "galeria": "GALERIE",
-            "adrenalina":"DRÉNALINE",
-            "aventura":"VENTURE",
-            "accion":"CTION",
-            "contacto":"CONTACT",
-            "cel":"TÉLÉ"
+            "adrenalina": "DRÉNALINE",
+            "aventura": "VENTURE",
+            "accion": "CTION",
+            "contacto": "CONTACT",
+            "cel": "TÉLÉ"
         },
-        "Idioma":{
-            "titulo":"IDIOME"
-        }    
-      }
-      }
+        "Idioma": {
+            "titulo": "IDIOME"
+        }
+    }
+}

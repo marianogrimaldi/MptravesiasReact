@@ -341,6 +341,23 @@ h4{
     }
 }
 
+.maskHome{
+    height: 7rem;
+    width: 24rem;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+
+.maskHome2{
+    height: 13rem;
+    width: 24rem;
+    margin-top: 31rem;
+    background-color: black;
+    position: absolute;
+    z-index: 1;
+}
+
 .videoHome{
     display: flex;
     justify-content: center;

@@ -15,7 +15,11 @@
         "activa": "ACTIVA TU MODO OFF ROAD",
         "travesias": "TRAVESIAS EN QUADs Y UTVs",
         "aventuras": "AVENTURAS POR TODO EL PAÍS",
-        "tour":"TOUR PRIVADO"
+        "tour":"TOUR PRIVADO",
+        "text1":"VISITÁ NUESTRAS REDES",
+        "text2":"Y DISFRUTÁ DEL VIAJE",
+        "text3":"NO TE PIERDAS",
+        "text4":"LA PRÓXIMA AVENTURA"
     },
     "Nosotros":{
         "titulo":"M.P. TRAVESÍAS",

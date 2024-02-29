@@ -40,16 +40,23 @@ const Home = () => {
             <Link to="/Tour"><h4> + {t("Home.tour")}</h4></Link>
             <img src={cuatri} className="cuatriSaludo" alt="" />
             <div className="videoHome">
-                <h2>VISITÁ NUESTRAS REDES <br /> Y DISFRUTÁ DEL VIAJE + <br />NO TE PIERDAS <br />LA PRÓXIMA AVENTURA +</h2>
-                <iframe
-                    title="Video de Instagram"
-                    width="380"
-                    height="700"
-                    src="https://www.instagram.com/p/CyBPoEDLS7_/embed/"
-                    frameborder="0"
-                    allowfullscreen
-                ></iframe>
-                
+                <h2>{t("Home.text1")} <br /> {t("Home.text2")} + <br />{t("Home.text3")} <br />{t("Home.text4")} +</h2>
+                <div>
+                    <div className="maskHome">
+
+                    </div>
+                    <div className="maskHome2">
+
+                    </div>
+                    <iframe
+                        title="Video de Instagram"
+                        width="380"
+                        height="700"
+                        src="https://www.instagram.com/p/CyBPoEDLS7_/embed/"
+                        frameborder="0"
+                        allowfullscreen
+                    ></iframe>
+                </div>
             </div>
         </div>
     )
