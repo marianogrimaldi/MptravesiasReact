@@ -6,6 +6,7 @@
             "nosotros": "NOUS",
             "travesias": "VOYAGES",
             "tour": "VISITE PRIVÉE",
+            "guarderia":"STOCKAGE",
             "galeria": "GALERIE",
             "contacto": "CONTACT"
         },
@@ -48,6 +49,13 @@
             "titulo": "VISITE PRIVÉE",
             "texto": "Dans cette modalité, nous organisons un voyage basé sur vos goûts et nos connaissances. Si vous avez un groupe d'amis et souhaitez vivre une expérience incroyable, demandez-nous les dates et les destinations, et nous redessinerons pour vous un voyage exclusif. En tenant toujours compte des conditions météorologiques, notre objectif est que vous ressentiez pleinement la nature dans un cadre sûr et fiable."
         },
+        "Guarderia": {
+            "titulo": "STOCKAGE",
+            "texto1": "À de nombreuses reprises, nos chauffeurs sont confrontés au défi de ne pas avoir suffisamment d’espace pour entreposer et entretenir leurs véhicules. C’est pourquoi nous avons créé une solution spéciale : une pépinière exclusive conçue pour les UTV, les VTT et les motos.",
+            "texto2":"Située au cœur des montagnes de Cordoue, notre pépinière vous donne la possibilité de commencer vos voyages directement depuis notre porte. De plus, nous offrons un service Premium qui comprend un atelier spécialisé équipé de tous les outils et logiciels nécessaires à la préparation des véhicules, ainsi que la vaste expérience et les connaissances de Marcelo Puchatt.",
+            "texto3":"Notre service Premium comprend également un lavage mensuel, des casiers pour ranger vos affaires et la préparation complète du véhicule afin qu’il soit prêt pour toutes les aventures que vous envisagez.",
+            "texto4":"Il est important de noter que nos quotas sont limités, car nous privilégions la qualité dans chacun de nos pilotes. Pour plus d’informations et pour réserver votre place, n’hésitez pas à nous contacter via WhatsApp. Nous avons hâte de vous accueillir et de prendre soin de votre véhicule !"
+          },
         "Galeria": {
             "titulo": "GALERIE",
             "video": "+ ACTION - AVENTURE - ADRÉNALINE +"

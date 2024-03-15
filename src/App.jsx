@@ -5,6 +5,7 @@ import Home from './Components/Home/Home'
 import Nosotros from './Components/Nosotros/Nosotros';
 import Travesias from './Components/Travesias/Travesias';
 import Tour from './Components/Tour/Tour';
+import Guarderia from './Components/Guarderia/Guarderia';
 import Galeria from './Components/Galeria/Galeria';
 import Footer from './Components/Footer/Footer';
 import ScrollToTop from './Components/ScrollToTop/ScrollToTop';
@@ -23,6 +24,7 @@ function App() {
         <Route path="/Nosotros" element={<Nosotros/>}/>
         <Route path="/Travesias" element={<Travesias/>}/>
         <Route path="/Tour" element={<Tour/>}/>
+        <Route path="/Guarderia" element={<Guarderia/>}/>
         <Route path="/Galeria" element={<Galeria/>}/>
         
       </Routes>

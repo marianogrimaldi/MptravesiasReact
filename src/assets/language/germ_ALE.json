@@ -6,6 +6,7 @@
             "nosotros": "UNS",
             "travesias": "REISEN",
             "tour": "PRIVATE TOUR",
+            "guarderia":"GUARDERIA",
             "galeria": "GALERIE",
             "contacto": "KONTAKT"
         },
@@ -48,6 +49,13 @@
             "titulo": "PRIVATE TOUR",
             "texto": "In dieser Modalität stellen wir eine Reise basierend auf Ihrem Geschmack und unserem Wissen zusammen. Wenn Sie eine Gruppe von Freunden haben und ein unglaubliches Erlebnis erleben möchten, fragen Sie uns nach Daten und Reisezielen, und wir entwerfen eine exklusive Reise für Sie. Unter Berücksichtigung der Wetterbedingungen ist es unser Ziel, dass Sie die Natur in einer sicheren und zuverlässigen Umgebung voll und ganz spüren können."
         },
+        "Guarderia": {
+            "titulo": "LAGERUNG",
+            "texto1": "In vielen Fällen stehen unsere Fahrer vor der Herausforderung, nicht genügend Platz für die Lagerung und Wartung ihrer Fahrzeuge zu haben. Aus diesem Grund haben wir eine besondere Lösung entwickelt: eine exklusive Gärtnerei für UTVs, ATVs und Motorräder.",
+            "texto2":"Im Herzen der Berge von Córdoba gelegen, bietet Ihnen unsere Gärtnerei die Möglichkeit, Ihre Reisen direkt von unserer Haustür aus zu beginnen. Darüber hinaus bieten wir einen Premium-Service an, der eine spezialisierte Werkstatt umfasst, die mit allen notwendigen Werkzeugen und Software für die Vorbereitung von Fahrzeugen ausgestattet ist, zusammen mit der langjährigen Erfahrung und dem Wissen von Marcelo Puchatt.",
+            "texto3":"Unser Premium-Service umfasst auch eine monatliche Wäsche, Schließfächer zur Aufbewahrung Ihrer Sachen und die komplette Vorbereitung des Fahrzeugs, damit es für jedes Abenteuer bereit ist, das Sie sich in den Kopf gesetzt haben.",
+            "texto4":"Es ist wichtig zu beachten, dass unsere Quoten begrenzt sind, da wir bei jedem unserer Pilotprojekte auf Qualität setzen. Für weitere Informationen und um Ihren Platz zu reservieren, können Sie uns gerne über WhatsApp kontaktieren. Wir können es kaum erwarten, Sie willkommen zu heißen und uns um Ihr Fahrzeug zu kümmern!"
+          },
         "Galeria": {
             "titulo": "GALERIE",
             "video": "+ ACTION – ABENTEUER – ADRENALIN +"

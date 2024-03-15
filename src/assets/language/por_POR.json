@@ -6,6 +6,7 @@
             "nosotros": "NÓS",
             "travesias": "VIAGENS",
             "tour": "TOUR PRIVADO",
+            "guarderia":"ARMAZENAMENTO",
             "galeria": "GALERIA",
             "contacto": "CONTATO"
         },
@@ -48,6 +49,13 @@
             "titulo": "TOUR PRIVADO",
             "texto": "Nesta modalidade montamos uma viagem baseada nos seus gostos e nos nossos conhecimentos. Se você tem um grupo de amigos e quer viver uma experiência incrível, pergunte-nos datas e destinos, e redesenharemos uma viagem exclusiva para você. Tendo sempre em conta as condições meteorológicas, o nosso objetivo é que sinta plenamente a natureza num ambiente seguro e confiável."
         },
+        "Guarderia": {
+            "titulo": "ARMAZENAMENTO",
+            "texto1": "Em muitas ocasiões, nossos motoristas se deparam com o desafio de não ter espaço adequado para armazenar e manter seus veículos. Por isso, criamos uma solução especial: um berçário exclusivo para UTVs, quadriciclos e motocicletas.",
+            "texto2":"Localizado no coração das montanhas de Córdoba, o nosso viveiro dá-lhe a oportunidade de começar as suas viagens diretamente a partir da nossa porta. Além disso, oferecemos um serviço Premium que inclui uma oficina especializada equipada com todas as ferramentas e softwares necessários para a preparação de veículos, juntamente com a vasta experiência e conhecimento de Marcelo Puchatt.",
+            "texto3":"Nosso serviço Premium também inclui uma lavagem mensal, armários para guardar seus pertences e a preparação completa do veículo para que ele esteja pronto para qualquer aventura que você definir sua mente.",
+            "texto4":"É importante ressaltar que nossas cotas são limitadas, pois priorizamos a qualidade em cada um de nossos pilotos. Para mais informações e para reservar sua vaga, não hesite em contactar-nos via WhatsApp. Mal podemos esperar para recebê-lo e cuidar do seu veículo!"
+          },
         "Galeria": {
             "titulo": "GALERIA",
             "video": "+ AÇÃO - AVENTURA - ADRENALINA +"

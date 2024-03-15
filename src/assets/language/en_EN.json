@@ -6,6 +6,7 @@
       "nosotros": "ABOUT US",
       "travesias": "CROSSINGS",
       "tour": "PRIVATE TOUR",
+      "guarderia":"STORAGE",
       "galeria": "GALLERY",
       "contacto": "CONTACT"
     },
@@ -47,6 +48,13 @@
     "Galeria": {
       "titulo": "GALLERY",
       "video": "+ ACTION - ADVENTURE - ADRENALINE +"
+    },
+    "Guarderia": {
+      "titulo": "STORAGE",
+      "texto1": "On many occasions, our drivers are faced with the challenge of not having adequate space to store and maintain their vehicles. That's why we've created a special solution: an exclusive nursery designed for UTVs, ATVs and Motorcycles.",
+      "texto2":"Located in the heart of the mountains of Cordoba, our nursery gives you the opportunity to start your journeys directly from our door. In addition, we offer a Premium service that includes a specialized workshop equipped with all the necessary tools and software for vehicle preparation, along with the vast experience and knowledge of Marcelo Puchatt.",
+      "texto3":"Our Premium service also includes a monthly wash, lockers to store your belongings and the complete preparation of the vehicle so that it is ready for any adventure you set your mind to.",
+      "texto4":"It is important to note that our quotas are limited, as we prioritize quality in each of our pilots. For more information and to reserve your spot, feel free to contact us via WhatsApp. We can't wait to welcome you and take care of your vehicle!"
     },
     "Tour": {
       "titulo": "PRIVATE TOUR",

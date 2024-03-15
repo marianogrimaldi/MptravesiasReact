@@ -52,7 +52,7 @@ const Travesias = () =>{
                     <h2>{t("Travesias.mes2")}</h2>
                     <p>+ DAKAR SUDAMERICANO FIAMBALA</p>
                     <img src={marzo}  alt="" />
-                    {<img src={pronto} className="imgFin" alt="" />}
+                    {<img src={fin} className="imgFin" alt="" />}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes3")}</h2>
@@ -70,7 +70,7 @@ const Travesias = () =>{
                     <h2>{t("Travesias.mes5")}</h2>
                     <p>+ {t("Travesias.desafio")} TUCUMAN Y SALTA</p>
                     <img src={junio}  alt="" />
-                    {/*<img src={fin} className="imgFin" alt="" />*/}
+                    {<img src={pronto} className="imgFin" alt="" />}
                 </div>
                 <div className="cardSalidas">
                     <h2>{t("Travesias.mes6")}</h2>

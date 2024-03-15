@@ -6,6 +6,7 @@
         "nosotros": "NOSOTROS",
         "travesias": "TRAVESÍAS",
         "tour": "TOUR PRIVADO",
+        "guarderia":"GUARDERIA",
         "galeria": "GALERIA",
         "contacto": "CONTACTO"
         
@@ -50,6 +51,13 @@
         "titulo":"TOUR PRIVADO",
         "texto":"En esta modalidad armamos una travesía en base a tus gustos y nuestros conocimientos. Si tenés un grupo de amigos y querés vivir una experiencia increíble, consultanos por fechas y destinos, y rediseñamos una travesía exclusiva para vos. Teniendo siempre en cuenta las condiciones climáticas, nuestro objetivo es que sientas a pleno la naturaleza en un marco seguro y confiable."
     },
+    "Guarderia": {
+        "titulo": "GUARDERIA",
+        "texto1": "En muchas ocasiones, nuestros pilotos se encuentran con el desafío de no tener un espacio adecuado para almacenar y dar mantenimiento a sus vehículos. Es por eso que hemos creado una solución especial: una guardería exclusiva diseñada para Utv, Cuatriciclos y Motocicletas.",
+        "texto2":"Ubicada en el corazón de las sierras de Córdoba, nuestra guardería te brinda la oportunidad de iniciar tus travesías directamente desde nuestra puerta. Además, ofrecemos un servicio Premium que incluye un taller especializado equipado con todas las herramientas y software necesarios para la preparación de vehículos, junto con la vasta experiencia y conocimientos de Marcelo Puchatt.",
+        "texto3":"Nuestro servicio Premium también comprende un lavado mensual, lockers para guardar tus pertenencias y el alistamiento completo del vehículo para que esté listo para cualquier aventura que te propongas.",
+        "texto4":"Es importante tener en cuenta que nuestros cupos son limitados, ya que priorizamos la calidad en cada uno de nuestros pilotos. Para obtener más información y reservar tu lugar, no dudes en comunicarte con nosotros a través de WhatsApp. ¡Estamos ansiosos por recibirte y cuidar de tu vehículo!"
+      },
     "Galeria":{
         "titulo":"GALERIA",
         "video":"+ ACCION - AVENTURA - ADRENALINA +"

@@ -85,7 +85,7 @@ const Galeria = () => {
 
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -98,7 +98,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -111,7 +111,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -124,7 +124,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -137,7 +137,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -150,7 +150,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -163,7 +163,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -176,7 +176,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -189,7 +189,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -202,7 +202,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
@@ -215,7 +215,7 @@ const Galeria = () => {
                         ></iframe>
                     </div>
                     <div>
-                    <div className="mask">
+                        <div className="mask">
                             <p className="textVideo">{t("Galeria.video")}</p>
                         </div>
                         <img src={logo} className="logoMarceloVideos" alt="Logo Marcelo Puchatt" />
