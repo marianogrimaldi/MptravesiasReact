@@ -21,6 +21,7 @@ const Menu = () => {
                     <NavLink to="/Nosotros"><li>{t("Header.nosotros")}</li></NavLink> 
                     <NavLink to="/Travesias"><li>{t("Header.travesias")}</li></NavLink> 
                     <NavLink to="/Tour"><li>{t("Header.tour")}</li></NavLink> 
+                    <NavLink to="/Guarderia"><li>{t("Header.guarderia")}</li></NavLink> 
                     <NavLink to="/Galeria"><li>{t("Header.galeria")}</li></NavLink> 
                     <a href="#footer"><li>{t("Header.contacto")}</li></a>
                 </div>
