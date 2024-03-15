@@ -9,9 +9,9 @@ const Guarderia = () => {
     const { t } = useTranslation()
 
     let imagenes = [
-        "/guarderia/1.jfif",
-        "/guarderia/2.jfif",
-        "/guarderia/3.jfif"
+        "/guarderia/1.jpg",
+        "/guarderia/2.jpg",
+        "/guarderia/3.jpg"
     ]
 
     return (
